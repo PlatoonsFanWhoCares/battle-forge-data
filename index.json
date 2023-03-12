@@ -1,7 +1,7 @@
 {
   "gameTypes": {"battle": {"name": "Combined-arms Battles"}, "skirmish": {"name": "Infantry Skirmishes"}, "racers": {"name": "Vehicle Combat"}},
   "categories": {"historical": {"name": "Historical"}, "sci_fi": {"name": "Sci-fi"}, "fantasy": {"name": "Fantasy"}},
-  "reportUrl": "https://github.com/wargame-engine/root/issues",
+  "reportUrl": "https://github.com/wargame-engine/battle-forge-data/issues",
   "games": {
     "stellar_frontiers_skirmish": {
       "id": "stellar_frontiers_skirmish",
@@ -9,8 +9,8 @@
       "category": "sci_fi",
       "version": "1.0",
       "name": "Stellar Frontiers Skirmishes",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/grimdark.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/grim-darkness-skirmish/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/grimdark.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/grim-darkness-skirmish/",
       "description": "In the far flung future, mankind has expanded into the stars, to be met with a war-ravaged battlefield.  Alien races fight for supremacy, impossible gods send forth impossible legions, and no corner is safe.  Realizing that the only way to survive was through bloodshed, the leaders of man created great war-divisions to help beat back the alien hordes.  But, will mankind be the victor, or just another player in this galactic game? Take part in small skirmish battles to control vital resources as part of a galactic campaign.",
       "color": "#7761ab"
     },
@@ -20,8 +20,8 @@
       "category": "sci_fi",
       "version": "1.0",
       "name": "Stellar Frontiers",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/grimdark.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/grim-darkness/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/grimdark.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/grim-darkness/",
       "description": "In the far flung future, mankind has expanded into the stars, to be met with a war-ravaged battlefield. Alien races fight for supremacy, impossible gods send forth impossible legions, and no corner is safe. Realizing that the only way to survive was through bloodshed, the leaders of man created great war-divisions to help beat back the alien hordes. But, will mankind be the victor, or just another player in this galactic game? Take part in large all out battles to decide the fate of the galaxy itself.",
       "color": "#7761ab"
     },
@@ -31,8 +31,8 @@
       "gameType": "skirmish",
       "version": "1.0",
       "name": "Mystic Realms Skirmishes",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/fantasy.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/fantasy-realms-skirmish/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/fantasy.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/fantasy-realms-skirmish/",
       "description": "In a wartorn realm of dead gods and living magic, fantastic races fight for the few areas of prosperity and success. The dead walk, elf clashes sword with elf, and the twisted power of the corpses of the divine tear holes from one world to another. Will you defend what's yours in a magical world gone mad, or will you walk between realms, bringing war and ruin in your wake? Take part in small skirmish battles to control vital resources as part of the war of realms.",
       "color": "#38733a"
     },
@@ -42,8 +42,8 @@
       "gameType": "battle",
       "version": "1.0",
       "name": "Mystic Realms",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/fantasy.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/fantasy-realms/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/fantasy.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/fantasy-realms/",
       "description": "In a wartorn realm of dead gods and living magic, fantastic races fight for the few areas of prosperity and success. The dead walk, elf clashes sword with elf, and the twisted power of the corpses of the divine tear holes from one world to another. Will you defend what's yours in a magical world gone mad, or will you walk between realms, bringing war and ruin in your wake? Take part in large all out battles to decide the fate of the realms.",
       "color": "#38733a"
     },
@@ -53,8 +53,8 @@
       "gameType": "battle",
       "name": "World War Two",
       "version": "1.0",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/ww2.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/world-war-two/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/ww2.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/world-war-two/",
       "description": "In a world locked in conflict, thunderous tanks roll and infantry charge. Discover numerous unique vehicles, aircraft and infantry weapons and use them to your advantage. With the power of the globe hanging in balance, will you fight to secure power for the axis attackers or defend home and country as the allied forces? Take part in large scale all out battles in World War Two to decide the fate of the globe.",
       "color": "#6c541e"
     },
@@ -64,8 +64,8 @@
       "category": "sci_fi",
       "version": "1.0",
       "name": "Wasteland Wars",
-      "image": "https://raw.githubusercontent.com/wargame-engine/root/main/wasteland_racers.jpg",
-      "url": "https://raw.githubusercontent.com/wargame-engine/root/main/wasteland-racers/",
+      "image": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/wasteland_racers.jpg",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/wasteland-racers/",
       "description": "In a world of zombies and plagues, only the fast survive. Roving bands of car warriors face each other in this post-apocalyptic wasteland for the rights to the best salvage, the best food, or maybe simply for their own pleasure. One thing's for sure: You're not going to let the other guy take your stuff! Gear up, grab your ammo, and get ready to race!",
       "color": "#ba7f00"
     }
@@ -140,70 +140,70 @@
         "missions": {
           "frontline": {
             "name": "Frontline",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/frontline.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/frontline.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "dual_fronts": {
             "name": "Dual Fronts",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/dual_fronts.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/dual_fronts.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "wide": {
             "name": "Frontline Wide",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/wide.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/wide.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "push": {
             "name": "Push",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "corner_push": {
             "name": "Corner Push",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/corner_push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/corner_push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "flanking_frontlines": {
             "name": "Flanking Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/flanking_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/flanking_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "corner_frontlines": {
             "name": "Corner Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/corner_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/corner_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "diagonal_frontlines": {
             "name": "Diagonal Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/diagonal_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/diagonal_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "sectors": {
             "name": "Sectors",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/sectors.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/sectors.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "wide_push": {
             "name": "Push Wide",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/battle/wide_push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/battle/wide_push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
@@ -400,70 +400,70 @@
         "missions": {
           "frontline": {
             "name": "Frontline",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/frontline.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/frontline.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "dual_fronts": {
             "name": "Dual Fronts",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/dual_fronts.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/dual_fronts.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "wide": {
             "name": "Frontline Wide",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/wide.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/wide.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "push": {
             "name": "Push",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "corner_push": {
             "name": "Corner Push",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/corner_push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/corner_push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "flanking_frontlines": {
             "name": "Flanking Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/flanking_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/flanking_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "corner_frontlines": {
             "name": "Corner Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/corner_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/corner_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "diagonal_frontlines": {
             "name": "Diagonal Frontlines",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/diagonal_frontlines.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/diagonal_frontlines.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "sectors": {
             "name": "Sectors",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/sectors.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/sectors.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
           },
           "wide_push": {
             "name": "Push Wide",
-            "map": "https://github.com/wargame-engine/root/raw/master/rules/missions/skirmish/wide_push.png",
+            "map": "https://github.com/wargame-engine/battle-forge-data/raw/master/rules/missions/skirmish/wide_push.png",
             "setup": "You and your opponent must set up objective markers as shown in the mission map.",
             "deployment": "Roll off and the winner chooses a table edge for their reinforcements. Their opponent will get the opposite table edge.",
             "victory_conditions": "Players score 5 VP at the end of the round for each of the following: \n * Controlling one objective \n * Controlling two or more objectives \n * Controlling three or more objectives"
