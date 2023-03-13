@@ -58,6 +58,17 @@
       "description": "In a world locked in conflict, thunderous tanks roll and infantry charge. Discover numerous unique vehicles, aircraft and infantry weapons and use them to your advantage. With the power of the globe hanging in balance, will you fight to secure power for the axis attackers or defend home and country as the allied forces? Take part in large scale all out battles in World War Two to decide the fate of the globe.",
       "color": "#6c541e"
     },
+    "dark_ages": {
+      "id": "dark_ages",
+      "category": "historical",
+      "gameType": "battle",
+      "name": "Dark Ages",
+      "version": "0.1",
+      "image": "",
+      "url": "https://raw.githubusercontent.com/wargame-engine/battle-forge-data/main/dark-ages/",
+      "description": "Dark Ages conflicts",
+      "color": "#3256a8"
+    },
     "wasteland_racers": {
       "id": "wasteland_racers",
       "gameType": "racers",
