@@ -33,6 +33,28 @@
                 "morale_focus": {"name": "Morale", "id": "morale_focus", "description": "A focus on morale and battle awareness."}
             }
         },
+        "wood_elves": {
+            "version": "1.0",
+            "name": "Wood Elves",
+            "id": "wood_elves",
+            "url": "wood_elves.json",
+            "color": "#38733a",
+            "alliance": "order",
+            "description": "Hidden away in their forests, the Wood Elves seek only peace, and the spreading of nature's gifts.  They go to war only to fight those who would despoil their forests or stop their spread.",
+            "subfactions": {
+                "assault_focus": {"name": "Assault", "id": "assault_focus", "description": "A focus on all-out assaults and aggression."},
+                "firepower_focus": {"name": "Firepower", "id": "firepower_focus", "description": "A focus on overwhelming firepower."},
+                "mobility_focus": {"name": "Mobility", "id": "mobility_focus", "description": "A focus on fast and fluid movement."},
+                "tactical_focus": {"name": "Tactical", "id": "tactical_focus", "description": "A focus on outsmarting and tricking the enemy."},
+                "stealth_focus": {"name": "Stealth", "id": "stealth_focus", "description": "A focus on sneaky and silent tactics."},
+                "vigilance_focus": {"name": "Vigilance", "id": "vigilance_focus", "description": "A focus on alertness and reactivity."},
+                "power_focus": {"name": "Power", "id": "power_focus", "description": "A focus on casting stronger and more consistent powers."},
+                "toughness_focus": {"name": "Toughness", "id": "toughness_focus", "description": "A focus on survival and unrelenting."},
+                "shock_focus": {"name": "Shock", "id": "shock_focus", "description": "A focus on striking fear into your enemies."},
+                "siege_focus": {"name": "Siege", "id": "siege_focus", "description": "A focus on siege warfare and denying cover."},
+                "morale_focus": {"name": "Morale", "id": "morale_focus", "description": "A focus on morale and battle awareness."}
+            }
+        },
         "human_kingdoms": {
             "version": "1.0",
             "name": "Human Kingdoms",
@@ -399,45 +421,6 @@
             "color": "#4e2894",
             "alliance": "order",
             "description": "The Dark Elves are dedicated to conquering and taking whatever land they can, and aren't afraid to bring the full might of elven wisdom and power to bear to do it."
-        },
-        "wood_elves": {
-            "version": "1.0",
-            "name": "Wood Elves",
-            "id": "wood_elves",
-            "url": "wood_elves.json",
-            "color": "#38733a",
-            "alliance": "order",
-            "description": "Hidden away in their forests, the Wood Elves seek only peace, and the spreading of nature's gifts.  They go to war only to fight those who would despoil their forests or stop their spread.",
-            "subfactions": {
-                "spite": {
-                    "name": "Spite-Grove",
-                    "id": "spite",
-                    "color": "#801111",
-                    "description": "Fueled by their own rage, lashing out at the outside world in brutal and quick skirmishes.",
-                    "restricted": true
-                },
-                "life": {
-                    "name": "Life-Grove",
-                    "id": "life",
-                    "color": "#50974A",
-                    "description": "Protecting the land and all its inhabitants, following the circle of life and death.",
-                    "restricted": true
-                },
-                "sorrow": {
-                    "name": "Sorrow-Grove",
-                    "id": "sorrow",
-                    "color": "#30106B",
-                    "description": "Blinded by their own hate, these forces of the woods have turned against their elven allies and the rest of the world.",
-                    "restricted": true
-                },
-                "watchers": {
-                    "name": "Wayward Watcher",
-                    "id": "watchers",
-                    "color": "#38733a",
-                    "description": "Nomadic Guardians of ancient paths and groves, setting out to seek out and destroy great dangers.",
-                    "restricted": true
-                }
-            }
         }
     },
     "categories": {"hero": {"name": "Hero"}, "core": {"name": "Core"}, "elite": {"name": "Elite"}, "rare": {"name": "Rare"}, "fortification": {"name": "Fortification"}},
