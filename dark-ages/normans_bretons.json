@@ -6,35 +6,35 @@
             "name": "Duchy of Normany (1000-1065 AD)",
             "phase": "activation",
             "id": "duchy_of_normany",
-            "background": "The Normons were desendants of Vikings and were just as bloodthristy, to the point that many of them were traveling across the lands as Mercenaries. They also were more than willing to employ large mercenary armies.",
+            "description": "The Normons were desendants of Vikings and were just as bloodthristy, to the point that many of them were traveling across the lands as Mercenaries. They also were more than willing to employ large mercenary armies.",
             "restricted": "true"
         },
         "italo_normans": {
             "name": "Italo-Normans (1000-1065 AD)",
             "phase": "activation",
             "id": "italo_normans",
-            "background": "Many of the Normons ended up as mercenaries and 'crusaders' around southern Italy. They often fought against 'unbelievers' after they had converted to Christianity.",
+            "description": "Many of the Normons ended up as mercenaries and 'crusaders' around southern Italy. They often fought against 'unbelievers' after they had converted to Christianity.",
             "restricted": "true"
         },
         "bretons": {
             "name": "Bretons (768-1065 AD)",
             "phase": "activation",
             "id": "bretons",
-            "background": "The Bretons were increasingly more like the Franks and Normons with every passing decade. They would often fight against the Normons or with them, and be vassals of the French King or rising up in rebellion. Unlike the others, they stuck to their traditions of light cavalry and heavy cavalry who threw spears.",
+            "description": "The Bretons were increasingly more like the Franks and Normons with every passing decade. They would often fight against the Normons or with them, and be vassals of the French King or rising up in rebellion. Unlike the others, they stuck to their traditions of light cavalry and heavy cavalry who threw spears.",
             "restricted": "true"
     },
     "flemish": {
         "name": "Flemish (900-1065 AD)",
         "phase": "activation",
         "id": "flemish",
-        "background": "The Count of Flanders was supposed to the vassal of the French King, but often he was able to shake off the yoke of vassalage. Flanders thus was often independent and wealthy, with a rich tradition for fighting on foot.",
+        "description": "The Count of Flanders was supposed to the vassal of the French King, but often he was able to shake off the yoke of vassalage. Flanders thus was often independent and wealthy, with a rich tradition for fighting on foot.",
         "restricted": "true"
 },
 "duchy_frisia": {
     "name": "Duchy of Frisia (768-900 AD)",
     "phase": "activation",
     "id": "duchy_frisia",
-    "background": "When the Saxons and Angles invaded The British Isles, they went throught the lands of the Frisians. At this time, the Frisians were about to be or were conquered by the Franks, but they often rose up (With Germanic support) in riots, burning Christian Churches and Frankish symbols.",
+    "description": "When the Saxons and Angles invaded The British Isles, they went throught the lands of the Frisians. At this time, the Frisians were about to be or were conquered by the Franks, but they often rose up (With Germanic support) in riots, burning Christian Churches and Frankish symbols.",
     "restricted": "true"
 }
 },

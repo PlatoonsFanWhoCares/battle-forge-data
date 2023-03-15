@@ -6,42 +6,42 @@
         "name": "Late Romans (300-399 AD)",
         "phase": "activation",
         "id": "slightly_late_roman",
-        "background": "After the 'Third Century Crisis', the Roman Empire was stiched back together and reformed by Diocletian, than Constantine the Great, which would give it anotehr hundred years to live.",
+        "description": "After the 'Third Century Crisis', the Roman Empire was stiched back together and reformed by Diocletian, than Constantine the Great, which would give it anotehr hundred years to live.",
         "restricted": "true"
     },
     "late_roman": {
         "name": "Late Romans (400-500 AD)",
         "phase": "activation",
         "id": "late_roman",
-        "background": "In the year 410AD Rome would be sacked by Visigoth allies, who were enraged that the Emperor had their families murdered. After this event, the Western Roman Empire would decline and decline, before collapsing into ruin. ",
+        "description": "In the year 410AD Rome would be sacked by Visigoth allies, who were enraged that the Emperor had their families murdered. After this event, the Western Roman Empire would decline and decline, before collapsing into ruin. ",
         "restricted": "true"
     },
     "east_roman": {
         "name": "Late Eastern Romans (400-492 AD)",
         "phase": "activation",
         "id": "slightly_late_roman",
-        "background": "",
+        "description": "",
         "restricted": "true"
     },
     "early_byzantine_empire": {
         "name": "Early Byzantine Empire (493-582 AD)",
         "phase": "activation",
         "id": "early_byzantine_empire",
-        "background": "The people of this era referred to themselves as 'Romans', but were successors of the eastern half of the empire. This period includes the reign of 'Justinian I', who managed to, for a time, to reconquer Italia and Northern Africa.",
+        "description": "The people of this era referred to themselves as 'Romans', but were successors of the eastern half of the empire. This period includes the reign of 'Justinian I', who managed to, for a time, to reconquer Italia and Northern Africa.",
         "restricted": "true"
     },
     "byzantine_empire": {
         "name": "Early Byzantine Empire (583-641 AD)",
         "phase": "activation",
         "id": "byzantine_empire",
-        "background": "",
+        "description": "",
         "restricted": "true"
     },
     "three_short": {
         "name": "Thematic Byzantines, Three Short Dynasties (642-867 AD)",
         "phase": "activation",
         "id": "three_short",
-        "background": "This period saw the rapid rise and fall of the Heraclian, Isaurian, and Amorian Dynasties, in that order.",
+        "description": "This period saw the rapid rise and fall of the Heraclian, Isaurian, and Amorian Dynasties, in that order.",
         "restricted": "true"
     }
 },
@@ -866,7 +866,7 @@
         },
         "isaurian_psiloi": {
             "name": "Isaurian Psiloi",
-            "description": "The Isaurians were a previously poor people of a mountainous province within what is now Turkey. Like many other people from such backgrounds, they were excellent light infantry._________________________________________________________________________________________ The reigns of both, Theodosius II and Leo 1 (Ruled 402-45, 457-474) propelled many of these simple mountain people into positions of great civil and military power, possibly to counter other barbarian or semi-barbarian peoples (Such as 'Germanics').  Indeed, Emperor Zeno (Ruled 474-475) was an Isaurian himself. Despite the fact that within the military, barbarians and romans were increasing indistinguishable, the 'Romans' in Constantinople erupted into what was effectively a race riot in 475 (Which literally started in a chariot stadium..), during which they killed every Isaurian in the city. Zeno ended up ruling from 476 till 491, when he died of natural causes. A fellow Isaurian was not allowed to replace him (More sports fans race riots), and the resulting Isaurian revolt was crushed in 492.",
+            "description": "The Isaurians were a previously poor people of a mountainous province within what is now Turkey. Like many other people from such descriptions, they were excellent light infantry._________________________________________________________________________________________ The reigns of both, Theodosius II and Leo 1 (Ruled 402-45, 457-474) propelled many of these simple mountain people into positions of great civil and military power, possibly to counter other barbarian or semi-barbarian peoples (Such as 'Germanics').  Indeed, Emperor Zeno (Ruled 474-475) was an Isaurian himself. Despite the fact that within the military, barbarians and romans were increasing indistinguishable, the 'Romans' in Constantinople erupted into what was effectively a race riot in 475 (Which literally started in a chariot stadium..), during which they killed every Isaurian in the city. Zeno ended up ruling from 476 till 491, when he died of natural causes. A fellow Isaurian was not allowed to replace him (More sports fans race riots), and the resulting Isaurian revolt was crushed in 492.",
             "subfactions": ["early_byzantine_empire", "byzantine_empire"],
             "category": "rare",
             "min": 1,

@@ -6,7 +6,7 @@
             "name": "Scots/Irish Raiders and Colonists",
             "phase": "activation",
             "id": "scots_irish_raiders",
-            "background": "These were the people and the descendants, of those who raid the coasts of Greater Britannia, typically around the areas of he Welsh.",
+            "description": "These were the people and the descendants, of those who raid the coasts of Greater Britannia, typically around the areas of he Welsh.",
             "restricted": "true"
         }
     ,
@@ -14,7 +14,7 @@
             "name": "Eastern Welsh (600-720)",
             "phase": "activation",
             "id": "powys",
-            "background": "Before they were occupied by the Anglo-Saxons, these people made moderate use of the bow and were most successful in battle when raiding Anglo-Saxon settlers.",
+            "description": "Before they were occupied by the Anglo-Saxons, these people made moderate use of the bow and were most successful in battle when raiding Anglo-Saxon settlers.",
             "restricted": "true"
         }
     },

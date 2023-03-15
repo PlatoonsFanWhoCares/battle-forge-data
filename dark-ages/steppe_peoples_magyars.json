@@ -6,31 +6,31 @@
     "early_khazar": {
       "name": "Khazar (568-780)",
       "id": "early_khazar",
-      "background": "The Khazar people were powerful nomads who conquered and pillaged the various slavic people around them. They were ruled over by a 'Khagan', who had incredible power in the region.",
+      "description": "The Khazar people were powerful nomads who conquered and pillaged the various slavic people around them. They were ruled over by a 'Khagan', who had incredible power in the region.",
       "restricted": "true"
     },
     "sarmatians": {
       "name": "Sarmatians (300-650)",
       "id": "sarmatians",
-      "background": "Originating in the central parts of the Eurasian Steppe, the Sarmatians were part of the wider Scythian cultures (Probably of Iranian or Turkish origin.), which moved increasing west over time. By the time that the Western Roman Empire was in decline, the Sarmatians were assimilating into the invading Vandals or Goths, being absorbed by Early Slavs, or becoming the Alans of the Northern Caucasus.",
+      "description": "Originating in the central parts of the Eurasian Steppe, the Sarmatians were part of the wider Scythian cultures (Probably of Iranian or Turkish origin.), which moved increasing west over time. By the time that the Western Roman Empire was in decline, the Sarmatians were assimilating into the invading Vandals or Goths, being absorbed by Early Slavs, or becoming the Alans of the Northern Caucasus.",
       "restricted": "true"
     },
     "magyars": {
       "name": "Magyars (650-900)",
       "id": "magyars",
-      "background": "",
+      "description": "",
       "restricted": "true"
     },
     "late_magyars": {
       "name": "Magyars (900-1000)",
       "id": "late_magyars",
-      "background": "",
+      "description": "",
       "restricted": "true"
     },
     "early_hungary": {
       "name": "Hungary (1000-1100)",
       "id": "early_hungary",
-      "background": "",
+      "description": "",
       "restricted": "true"
     }
   },

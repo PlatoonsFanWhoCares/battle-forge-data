@@ -5,13 +5,13 @@
     "early_persian": {
       "name": "Early Sassanid Persians (226-500)",
       "id": "early_persian",
-      "background": "",
+      "description": "",
       "restricted": "true"
     },
     "latter_persian": {
       "name": "Sassanid Persians (501-649)",
       "id": "latter_persian",
-      "background": "",
+      "description": "",
       "restricted": "true"
     }
   },

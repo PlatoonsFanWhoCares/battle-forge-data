@@ -6,7 +6,7 @@
             "name": "Early Saxon Kingdoms (400s-600s AD)",
             "phase": "activation",
             "id": "early_saxon_kingdoms",
-            "background": "Kent, Wessex, Sussex, Essex.",
+            "description": "Kent, Wessex, Sussex, Essex.",
             "restricted": "true"
         }
     ,
@@ -14,7 +14,7 @@
             "name": "Sea Raiders (250-400 AD)",
             "phase": "activation",
             "id": "sea_raiders",
-            "background": "Barbarian Invasion",
+            "description": "Barbarian Invasion",
             "restricted": "true"
         }
     ,
@@ -22,14 +22,14 @@
             "name": "Saxon Kingdoms of the Heptarchy (600-700 AD)",
             "phase": "activation",
             "id": "heptarchy",
-            "background": "Kent, Wessex, Sussex, Essex.",
+            "description": "Kent, Wessex, Sussex, Essex.",
             "restricted": "true"
         },
         "late_pagan": {
             "name": "Late Pagan Saxons (701-785 AD)",
             "phase": "activation",
             "id": "late_pagan",
-            "background": "These were the Saxons who stayed in what is now Germany, during the period before they were 'converted at the sword' by Charlemagne.",
+            "description": "These were the Saxons who stayed in what is now Germany, during the period before they were 'converted at the sword' by Charlemagne.",
             "restricted": "true"
         }
     },

@@ -7,21 +7,21 @@
             "name": "Balkan Slavs (600-1100)",
             "phase": "activation",
             "id": "balkan_slavs",
-            "background": "Slavs migrated into the Balkans, becoming the Serbs, Croats, and various other Slavic people of the region.",
+            "description": "Slavs migrated into the Balkans, becoming the Serbs, Croats, and various other Slavic people of the region.",
             "restricted": "true"
         },
         "early_bulgars": {
             "name": "First Bulgarian Empire (681-912)",
             "phase": "activation",
             "id": "early_bulgars",
-            "background": "Once the Bulgars had cast off the reigning Avars, it was time for them to rule over their slavic and balkan subjects. The Umayyads were enough to get the Bulgars to work with the Byzantines, but after that they were at each others throats.",
+            "description": "Once the Bulgars had cast off the reigning Avars, it was time for them to rule over their slavic and balkan subjects. The Umayyads were enough to get the Bulgars to work with the Byzantines, but after that they were at each others throats.",
             "restricted": "true"
         },
         "middle_bulgars": {
             "name": "First Bulgarian Empire (913-1018)",
             "phase": "activation",
             "id": "middle_bulgars",
-            "background": "After a great victory against the Romans in the East, Simeon I the Great declared himself Tzar.",
+            "description": "After a great victory against the Romans in the East, Simeon I the Great declared himself Tzar.",
             "restricted": "true"
         }
     },

@@ -6,21 +6,21 @@
         "name": "Romano British Indepentent Era (402-500 AD)",
         "phase": "activation",
         "id": "romano_british_early",
-        "background": "During this period the Romans not from The British Isles left, to try and reestablish order on the continent. The Romanized British people were left trying to preserve their own 'civilized' way of life. This is the latest that we know for certain they retained most or all of the old Roman ways.",
+        "description": "During this period the Romans not from The British Isles left, to try and reestablish order on the continent. The Romanized British people were left trying to preserve their own 'civilized' way of life. This is the latest that we know for certain they retained most or all of the old Roman ways.",
         "restricted": "true"
     },
     "late_romano-british": {
         "name": "Romano British Myth Era (Suspected 500-600 AD)",
         "phase": "activation",
         "id": "late_romano-british",
-        "background": "According to what has been recently discovered, this period contained standardized buildings and structures in the style of Romans. There is however, much disagreement about how 'civilized' these people were. Most myths and legends indicate their were poor fighters, but others say they put on a 'brave last stand' against the Saxons.",
+        "description": "According to what has been recently discovered, this period contained standardized buildings and structures in the style of Romans. There is however, much disagreement about how 'civilized' these people were. Most myths and legends indicate their were poor fighters, but others say they put on a 'brave last stand' against the Saxons.",
         "restricted": "true"
     },
     "brittany": {
         "name": "Brittany (460-594 AD)",
         "phase": "activation",
         "id": "brittany",
-        "background": "As the Angles, Saxons, and other people invaded into the lands of the Britains (Present day England), many of the romanised britons fled accross the channel to preserve their way of life.",
+        "description": "As the Angles, Saxons, and other people invaded into the lands of the Britains (Present day England), many of the romanised britons fled accross the channel to preserve their way of life.",
         "restricted": "true"
     }
 },

@@ -6,21 +6,21 @@
             "name": "Italo Lombards (775-1100 AD)",
             "phase": "activation",
             "id": "italo_lombards",
-            "background": "After the region was divided from the rest of 'Italy' by being conquered by the Frankish Empire, the cities were being rebuilt and the region was becoming a vital trade hub connecting Europe, Africa, and the Near East.",
+            "description": "After the region was divided from the rest of 'Italy' by being conquered by the Frankish Empire, the cities were being rebuilt and the region was becoming a vital trade hub connecting Europe, Africa, and the Near East.",
             "restricted": "true"
         },
         "early_hre": {
             "name": "Early Holy Roman Empire (900-1100 AD)",
             "phase": "activation",
             "id": "early_hre",
-            "background": "Otto the Great founded his own 'Ottonian dynasty'(Technically his father, Conrad, started the dynasty), finally seperating the Eastern, German portion of the old Holy Roman Empire from the Franks/French.",
+            "description": "Otto the Great founded his own 'Ottonian dynasty'(Technically his father, Conrad, started the dynasty), finally seperating the Eastern, German portion of the old Holy Roman Empire from the Franks/French.",
             "restricted": "true"
         },
         "burgundy": {
             "name": "Various Kingdoms of Burgundy (900-1033 AD)",
             "phase": "activation",
             "id": "burgundy",
-            "background": "The region of Burgundy would divide and unite over and over during this period before being conquered by the Holy Roman Empire.",
+            "description": "The region of Burgundy would divide and unite over and over during this period before being conquered by the Holy Roman Empire.",
             "restricted": "true"
         }
 },

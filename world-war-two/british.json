@@ -446,7 +446,7 @@
         "home_guard": {
             "name": "British Home Guard",
             "description": "",
-            "background": "After the Battle of Dunkirk, the repeated bombing raids, and the constant threats of a naval landing by the Germans; there was a push for Britain to be prepared for a possible land invasion. The standard for men and equipment for the Home Guard wasn't as good as the actual armed forces.",
+            "description": "After the Battle of Dunkirk, the repeated bombing raids, and the constant threats of a naval landing by the Germans; there was a push for Britain to be prepared for a possible land invasion. The standard for men and equipment for the Home Guard wasn't as good as the actual armed forces.",
             "min": 1,
             "max": 1,
             "category": "infantry",

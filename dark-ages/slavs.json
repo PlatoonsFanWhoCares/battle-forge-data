@@ -7,35 +7,35 @@
             "name": "Pagan Rus (750-950)",
             "phase": "activation",
             "id": "rus",
-            "background": "The 'Varangians' (Groups of invading Swedes and 'ready-made' mercenary armies led by exiled nobles), invaded during this period and intermarriaged over time with the local Slavic peoples. Historians are perplexed by sources that state these people (Slavic and Swedes) were ruled by a 'Khagan', which is a word from the nomadic 'Khazars'. The leading theory is a Swede ruler took up the title as it was fairly local and impressive sounding. The Kievan Rus came after and was founded with the conquest of Kiev by Oleg of Novgorod (Rurik Dynasty) in 882.",
+            "description": "The 'Varangians' (Groups of invading Swedes and 'ready-made' mercenary armies led by exiled nobles), invaded during this period and intermarriaged over time with the local Slavic peoples. Historians are perplexed by sources that state these people (Slavic and Swedes) were ruled by a 'Khagan', which is a word from the nomadic 'Khazars'. The leading theory is a Swede ruler took up the title as it was fairly local and impressive sounding. The Kievan Rus came after and was founded with the conquest of Kiev by Oleg of Novgorod (Rurik Dynasty) in 882.",
             "restricted": "true"
         },
         "rus_princes": {
             "name": "Rus Princes (950-1100)",
             "phase": "activation",
             "id": "rus_princes",
-            "background": "",
+            "description": "",
             "restricted": "true"
         },
         "early_polish": {
             "name": "Early Poland (960-1100)",
             "phase": "activation",
             "id": "early_polish",
-            "background": "",
+            "description": "",
             "restricted": "true"
         },
         "baltic_slavs": {
             "name": "Baltic Slavs [Wend] (750-1000)",
             "phase": "activation",
             "id": "baltic_slavs",
-            "background": "",
+            "description": "",
             "restricted": "true"
         },
         "georgian": {
             "name": "Georgian (1000-1100)",
             "phase": "activation",
             "id": "georgian",
-            "background": "",
+            "description": "",
             "restricted": "true"
         }
     },

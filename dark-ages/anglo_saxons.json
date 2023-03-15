@@ -6,7 +6,7 @@
             "name": "Merica (700-1034)",
             "phase": "activation",
             "id": "merica",
-            "background": "This kingdom was the domiant or second most domiant among the Anglo-Saxons from  roughly 600 to 900 AD, reaching it's peak under the reign of King Offa (reigned 757 to 796). His death saw the decline of the kingdom, as through intermarriage and conquest it became a powerful part of Wessex. The kingdom stopped being distinct, even as a vassal, around 900 AD.",
+            "description": "This kingdom was the domiant or second most domiant among the Anglo-Saxons from  roughly 600 to 900 AD, reaching it's peak under the reign of King Offa (reigned 757 to 796). His death saw the decline of the kingdom, as through intermarriage and conquest it became a powerful part of Wessex. The kingdom stopped being distinct, even as a vassal, around 900 AD.",
             "restricted": "true"
         }
     ,
@@ -14,7 +14,7 @@
             "name": "Wessex (700-1034)",
             "phase": "activation",
             "id": "wessex",
-            "background": "From the 800s to late 1000s, with the arrival of the Normons, this was the dominant kingdom. Wessex had such power, that after 900, kingdoms like Kent and Sussex were simply 'Greater Wessex'. Alfred the Great was born here and ruled over these lands.",
+            "description": "From the 800s to late 1000s, with the arrival of the Normons, this was the dominant kingdom. Wessex had such power, that after 900, kingdoms like Kent and Sussex were simply 'Greater Wessex'. Alfred the Great was born here and ruled over these lands.",
             "restricted": "true"
         }
     ,
@@ -22,7 +22,7 @@
             "name": "Kent (793-1034)",
             "phase": "activation",
             "id": "late_kent",
-            "background": "Late Kent was a weaker, less accomplished, but proud kingdom.",
+            "description": "Late Kent was a weaker, less accomplished, but proud kingdom.",
             "restricted": "true"
         }
         ,
@@ -30,21 +30,21 @@
             "name": "Anglo-Danes/English (1016 to 1066)",
             "phase": "activation",
             "id": "anglo_danes",
-            "background": "The Danes, managed to conquer the Anglo-Saxons, and after the death of their leader and a rebellion among the various subjects, a new king rose to unite all the holdings. Even after the Danes, Norse, and other peoples were driven out a second time, the culture of the Anglo-Saxons had changed greatly. Many of their elite warriors were now 'Housecarls', much of the land was under the 'Danelaw', and the new introduced culture, like the Saxons, blended in and became an important part of the regional culture and identity.",
+            "description": "The Danes, managed to conquer the Anglo-Saxons, and after the death of their leader and a rebellion among the various subjects, a new king rose to unite all the holdings. Even after the Danes, Norse, and other peoples were driven out a second time, the culture of the Anglo-Saxons had changed greatly. Many of their elite warriors were now 'Housecarls', much of the land was under the 'Danelaw', and the new introduced culture, like the Saxons, blended in and became an important part of the regional culture and identity.",
             "restricted": "true"
         },
         "anglian_kingdoms_heptarchy": {
             "name": "Anglian Kingdoms Heptarchy (600-700 AD)",
             "phase": "activation",
             "id": "anglian_kingdoms_heptarchy",
-            "background": "The Angles/Anglos had their own kingdoms that were considered part of the 'Heptarchy', specifically East Anglia, Merica, Bernicia, and Deira. The 'North Angles' (Bernica and Deira) were unified into 'Northumbria' in 604 AD, (and despite converting after almost all the Saxon Kingdoms), they then had a 'golden age of religious and artistic works' from 650-750. ",
+            "description": "The Angles/Anglos had their own kingdoms that were considered part of the 'Heptarchy', specifically East Anglia, Merica, Bernicia, and Deira. The 'North Angles' (Bernica and Deira) were unified into 'Northumbria' in 604 AD, (and despite converting after almost all the Saxon Kingdoms), they then had a 'golden age of religious and artistic works' from 650-750. ",
             "restricted": "true"
         },
         "northumbria": {
             "name": "Northumbria (700-1066 AD)",
             "phase": "activation",
             "id": "northumbria",
-            "background": "The 'North Angles' (Bernica and Deira) were unified into 'Northumbria' in 604 AD. Afterward, they were conquered by the Vikings, and then 'liberated' by the Saxons. The area was known for its heavy Norse influences and retaining its horsemen traditions, sometimes fielding entire armies that fought purely on horseback.",
+            "description": "The 'North Angles' (Bernica and Deira) were unified into 'Northumbria' in 604 AD. Afterward, they were conquered by the Vikings, and then 'liberated' by the Saxons. The area was known for its heavy Norse influences and retaining its horsemen traditions, sometimes fielding entire armies that fought purely on horseback.",
             "restricted": "true"
         }
     },

@@ -7,14 +7,14 @@
             "name": "Harald Hardråde (1046-1066)",
             "phase": "activation",
             "id": "harald_hardråde",
-            "background": "Harald Hardrada ('hard ruler'), was a former member of the Nordic royal family who fledand joined the Byzantine Varangian Guard, won many battles and then was banished to Rus. Returning home, he fought another person with royal blood, became king of Norway, fought two wars against his neighboors, before then claiming the English throne and invading. Many of his soldiers were former Varangian Guard.",
+            "description": "Harald Hardrada ('hard ruler'), was a former member of the Nordic royal family who fledand joined the Byzantine Varangian Guard, won many battles and then was banished to Rus. Returning home, he fought another person with royal blood, became king of Norway, fought two wars against his neighboors, before then claiming the English throne and invading. Many of his soldiers were former Varangian Guard.",
             "restricted": "true"
         },
         "norse": {
             "name": "Norse (800-1015)",
             "phase": "activation",
             "id": "norse",
-            "background": "Regular norse.",
+            "description": "Regular norse.",
             "restricted": "true"
         }
     ,
@@ -22,7 +22,7 @@
         "name": "Norse (1016 and 1035)",
         "phase": "activation",
         "id": "north_sea_empire",
-        "background": "Cnut the Great was king of: Denmark, England and Norway; and his empire is known today as the 'North Sea Empire'",
+        "description": "Cnut the Great was king of: Denmark, England and Norway; and his empire is known today as the 'North Sea Empire'",
         "restricted": "true"
     }
     },

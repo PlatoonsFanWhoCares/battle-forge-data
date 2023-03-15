@@ -6,7 +6,7 @@
             "name": "Migration Period Germanics (250 - 561 AD)",
             "phase": "activation",
             "id": "migration_period_germanics",
-            "background": "The Germanics (Mostly, Goths, Visigoths, Suebi, and Vandals) were a hostile, frontier people during the beginning of this era. They would often be strong allies or enemies of the Romans during this period, with their allegiances being decided by what they viewed as the best opportunity.",
+            "description": "The Germanics (Mostly, Goths, Visigoths, Suebi, and Vandals) were a hostile, frontier people during the beginning of this era. They would often be strong allies or enemies of the Romans during this period, with their allegiances being decided by what they viewed as the best opportunity.",
             "restricted": "true"
         }
     ,
@@ -14,7 +14,7 @@
             "name": "Ostrogoths (400 - 561 AD)",
             "phase": "activation",
             "id": "ostrogoths",
-            "background": "After breaking away from the collapsing Hun Empire, they migrated towards the Byzantine Empire, hoping for a rich area to be carved out for them. Sadly, Thracian Goths were already in position and the Byzantine did not have more resources or land to spare. After much struggle, a deal was arranged where they would be given legitimately if they 'liberated' Italy and swore loyalty to the Emperor in the East.",
+            "description": "After breaking away from the collapsing Hun Empire, they migrated towards the Byzantine Empire, hoping for a rich area to be carved out for them. Sadly, Thracian Goths were already in position and the Byzantine did not have more resources or land to spare. After much struggle, a deal was arranged where they would be given legitimately if they 'liberated' Italy and swore loyalty to the Emperor in the East.",
             "restricted": "true"
         }
     ,
@@ -22,14 +22,14 @@
             "name": "Gepids and Early Lombards (450 - 774 AD)",
             "phase": "activation",
             "id": "gepids_lombards",
-            "background": "These two cultures lived in what is now North Western Germany. Due to the chaos of the period, and the intrusion of other warrior cultures, they moved increasingly south over time. The two clashed in what is now Austria, and the victorious Lombards fled their 'allies' into what is now Northern Italy. They remained there for centuries.",
+            "description": "These two cultures lived in what is now North Western Germany. Due to the chaos of the period, and the intrusion of other warrior cultures, they moved increasingly south over time. The two clashed in what is now Austria, and the victorious Lombards fled their 'allies' into what is now Northern Italy. They remained there for centuries.",
             "restricted": "true"
         },
         "vandals": {
             "name": "Vandals (442-535 AD)",
             "phase": "activation",
             "id": "Vandals",
-            "background": "A central European people who fled the Huns and then captured much of Northern Africa. They are known for their hatred for the javelin, their dislike for fighting on foot, and their love of the cavalry spear.",
+            "description": "A central European people who fled the Huns and then captured much of Northern Africa. They are known for their hatred for the javelin, their dislike for fighting on foot, and their love of the cavalry spear.",
             "restricted": "true"
         }
     ,
@@ -37,14 +37,14 @@
         "name": "Visigoths (475-720 AD)",
         "phase": "activation",
         "id": "west_goths",
-        "background": "While sackers of Rome, the Visigoths conquered much in Gaul, and retained control of 'Spain' till the 8th century. Unlike their various Germanic 'cousins', they were more flexible in their fighting styles, but were praised for their talent with the javelin thrown from horseback.",
+        "description": "While sackers of Rome, the Visigoths conquered much in Gaul, and retained control of 'Spain' till the 8th century. Unlike their various Germanic 'cousins', they were more flexible in their fighting styles, but were praised for their talent with the javelin thrown from horseback.",
         "restricted": "true"
     },
     "burgundians": {
         "name": "Burgundians (250-532 AD)",
         "phase": "activation",
         "id": "west_goths",
-        "background": "While sackers of Rome, the Visigoths conquered much in Gaul, and retained control of 'Spain' till the 8th century. Unlike their various Germanic 'cousins', they were more flexible in their fighting styles, but were praised for their talent with the javelin thrown from horseback.",
+        "description": "While sackers of Rome, the Visigoths conquered much in Gaul, and retained control of 'Spain' till the 8th century. Unlike their various Germanic 'cousins', they were more flexible in their fighting styles, but were praised for their talent with the javelin thrown from horseback.",
         "restricted": "true"
     }
 },

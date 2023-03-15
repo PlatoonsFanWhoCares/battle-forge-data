@@ -6,7 +6,7 @@
             "name": "Migration Period Franks (250 - 450 AD)",
             "phase": "activation",
             "id": "migration_period_franks",
-            "background": "The Franks were a hostile, frontier people during the beginning of this era. During the last decades or even century of this era, they often were allies of the Romans, and well rewarded ones too.",
+            "descriptionnnnnnn": "The Franks were a hostile, frontier people during the beginning of this era. During the last decades or even century of this era, they often were allies of the Romans, and well rewarded ones too.",
             "restricted": "true"
         }
     ,
@@ -14,7 +14,7 @@
             "name": "Early Merovingian Franks (450 - 600 AD)",
             "phase": "activation",
             "id": "early_merovingian_franks",
-            "background": "The Merovingian Dynasty was started with Merovech. Childeric and Clovis would continue the line, with Clovis conquering and ruling over most of Gaul (France). After Clovis died, according to Frankish tradition, the land was divided among his sons and they drove the kingdom into violent civil war. ",
+            "description": "The Merovingian Dynasty was started with Merovech. Childeric and Clovis would continue the line, with Clovis conquering and ruling over most of Gaul (France). After Clovis died, according to Frankish tradition, the land was divided among his sons and they drove the kingdom into violent civil war. ",
             "restricted": "true"
         }
     ,
@@ -22,7 +22,7 @@
             "name": "Later Merovingian Franks (600-750 AD)",
             "phase": "activation",
             "id": "later_merovingian_franks",
-            "background": "After Cholotar, the Frankish lands were again divided, united, divided, and united again. During this period of time, known as the 'Roi Fainéant' (Lazy King) were overshadowed by the powerful 'mayors of the palace'.",
+            "description": "After Cholotar, the Frankish lands were again divided, united, divided, and united again. During this period of time, known as the 'Roi Fainéant' (Lazy King) were overshadowed by the powerful 'mayors of the palace'.",
             "restricted": "true"
         }
     ,
@@ -30,21 +30,21 @@
             "name": "Carolingian Franks (768-900 AD)",
             "phase": "activation",
             "id": "carolingian_french",
-            "background": "The dynasty and empire of Charlemagne (Charles the Great), till his lands were divided amongst his grandchildren. Lothair and his desendents would rule the western portion, which became what is now France. Louis and his desendents would rule the eastern portion, which is now known as 'Germany'.",
+            "description": "The dynasty and empire of Charlemagne (Charles the Great), till his lands were divided amongst his grandchildren. Lothair and his desendents would rule the western portion, which became what is now France. Louis and his desendents would rule the eastern portion, which is now known as 'Germany'.",
             "restricted": "true"
         },
         "aquitaine": {
             "name": "Duchy of Aquitaine (660-769 AD)",
             "phase": "activation",
             "id": "aquitaine",
-            "background": "The Duchy of Aquintaine was a semi-independent Frankish during period of Merovingian weakness. Being on the border of the Christian world, it would often choose Muslims or enemies of the Franks as allies. It was later crushed by the Carolingians.",
+            "description": "The Duchy of Aquintaine was a semi-independent Frankish during period of Merovingian weakness. Being on the border of the Christian world, it would often choose Muslims or enemies of the Franks as allies. It was later crushed by the Carolingians.",
             "restricted": "true"
         },
         "capetian_french": {
             "name": "Capetian French (900-1100 AD)",
             "phase": "activation",
             "id": "capetian_french",
-            "background": "",
+            "description": "",
             "restricted": "true"
         }
     },
