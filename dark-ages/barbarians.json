@@ -170,6 +170,7 @@
                     "options": [{"addRule": "stubborn"},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
+                        {"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
                         {"addRule": "light_armor", "modelLimit": 5}],
                     "min": 5,
                     "max": 15

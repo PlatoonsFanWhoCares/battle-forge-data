@@ -114,7 +114,7 @@
                     "wounds": 1,
                     "weapons": ["javelin", "hand_weapon"],
                     "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
-                    {"replaceRule": "light_infantry", "withRule": "spearmen"},
+                    {"replaceRule": "light_infantry", "withRule": "light_spearmen"},
                     {"addRule": "agile"}, 
                     {"addRule": "reluctant"}
                 ],
@@ -201,7 +201,7 @@
                     "weapons": ["javelin", "hand_weapon"],
                     "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
                     {"addRule": "stubborn"},
-                    {"replaceRule": "light_infantry", "withRule": "spearmen"},
+                    {"replaceRule": "light_infantry", "withRule": "light_spearmen"},
                     {"addRule": "reluctant"}
                 ],
                     "min": 5,
@@ -322,7 +322,9 @@
                     "options": [{"addWeapon": "javelin"},
                     {"addRule": "light_armor"},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
-                        {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]}],
+                        {"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
+                        {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
+                        {"replaceRule": "warrior_culture", "withRule": "spearmen"}],
                     "min": 5,
                     "max": 15
                 }

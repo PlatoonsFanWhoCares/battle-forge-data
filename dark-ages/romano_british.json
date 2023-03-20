@@ -56,7 +56,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -93,7 +93,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -130,7 +130,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -199,7 +199,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -290,7 +290,7 @@
                     "shoot": 6,
                     "fight": 6,
                     "defense": 5,
-                    "reflexes": 5,
+                    "reflexes": 6,
                     "wounds": 1,
                     "weapons": ["spartha"],
                     "options": [
@@ -302,7 +302,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -327,7 +327,7 @@
                     "shoot": 6,
                     "fight": 6,
                     "defense": 5,
-                    "reflexes": 5,
+                    "reflexes": 6,
                     "wounds": 1,
                     "weapons": ["spartha"],
                     "options": [
@@ -338,7 +338,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -375,7 +375,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -413,7 +413,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },

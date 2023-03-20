@@ -307,7 +307,8 @@
                     "reflexes": 6,
                     "wounds": 1,
                     "weapons": ["hand_weapon", "javelin", "saxon_buckler"],
-                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]}],
+                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
+                    {"addRule": "light_armor", "modelLimit": 5}],
                     "min": 5,
                     "max": 10
                 }
@@ -334,7 +335,10 @@
                     "reflexes": 6,
                     "wounds": 1,
                     "weapons": ["hand_weapon", "javelin", "saxon_buckler"],
-                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]}, {"addRule": "agile"}, {"addRule": "reluctant"}],
+                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]}, 
+                    {"addRule": "agile"}, 
+                    {"addRule": "light_armor", "modelLimit": 5}
+                ],
                     "min": 5,
                     "max": 10
                 }
@@ -482,8 +486,9 @@
                     "defense": 7,
                     "reflexes": 6,
                     "wounds": 1,
-                    "weapons": ["spear", "saxon_buckler"],
-                    "options": [{"addRule": "agile"}, {"addRule": "reluctant"},{"addWeapon": "javelin"}],
+                    "weapons": ["hand_weapon", "saxon_buckler"],
+                    "options": [{"addRule": "agile"}, {"addRule": "reluctant"},{"addWeapon": "javelin"},
+                    {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]}],
                     "min": 5,
                     "max": 10
                 }
@@ -612,7 +617,7 @@
     }
 },
     "weapons": {
-        "saxon_buckler": {"name": "Saxon Buckler", "attacks": 0, "short": "Melee", "rules": [{"id": "shield"},{"id": "rending"}]
+        "saxon_buckler": {"name": "Saxon Buckler", "attacks": 0, "short": "Melee", "rules": [{"id": "buckler"},{"id": "rending"}]
     }},
     "rules": {
     "fierce": {

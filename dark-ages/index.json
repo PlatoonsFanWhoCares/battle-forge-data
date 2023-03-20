@@ -134,7 +134,7 @@
       "description_short": " -1 shock for being hit, +2 shock for losing one or more models.",
       "description": "-1 shock for being hit, +2 shock for losing one or more models.",
       "flavor": "Warbands are units that due to a lack of professional training, are overconfident in the chase or while being fired upon, but are filled with fear when being chased or seeing the blood of their fellow countrymen.",
-      "points": [-1]
+      "points": [-2]
     },
     "light_footed": {
       "name": "Light Footed",
@@ -207,12 +207,17 @@
     "man_of_god": {"name": "Man of God", "description": "This unit can be merged with any other unit, that unit may re-roll any failed Courage test when removing Shock once per turn.", "points": 10},
     "spearmen": {
       "name": "Spearmen",
-      "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction and ignores 'Horseman Warrior Culture'.",
+      "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction. This unit also ignores 'Horseman Warrior Culture'.",
       "points": 0.5
     },
     "pike": {"name": "Pike", "description": "Should this unit be charged, it has +1 Strength when performing a Counter-Attack reaction and it gets to attack first.", "points": 1.5},
     "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
     "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
-    "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5}
+    "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
+    "light_spearmen": {
+      "name": "Light Spearmen",
+      "description": "(Note: Requires unmounted, spear) Should this unit do a 'Hold' action and be charged by Cavalry before it's next turn, it has +1 Strength when performing a Counter-Attack reaction. This unit also ignores 'Horseman Warrior Culture'.",
+      "points": 0.5
+    }
   }
 }
