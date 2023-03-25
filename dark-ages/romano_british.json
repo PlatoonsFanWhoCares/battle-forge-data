@@ -9,10 +9,10 @@
         "description": "During this period the Romans not from The British Isles left, to try and reestablish order on the continent. The Romanized British people were left trying to preserve their own 'civilized' way of life. This is the latest that we know for certain they retained most or all of the old Roman ways.",
         "restricted": "true"
     },
-    "late_romano-british": {
+    "late_romano_british": {
         "name": "Romano British Myth Era (Suspected 500-600 AD)",
         "phase": "activation",
-        "id": "late_romano-british",
+        "id": "late_romano_british",
         "description": "According to what has been recently discovered, this period contained standardized buildings and structures in the style of Romans. There is however, much disagreement about how 'civilized' these people were. Most myths and legends indicate their were poor fighters, but others say they put on a 'brave last stand' against the Saxons.",
         "restricted": "true"
     },
@@ -28,7 +28,7 @@
         "worst_legionaries": {
             "name": "Tirone Pedyt",
             "description": "The Pedyt (The ancestor of the word 'pawn) came from the Latin, Pedes, for 'foot soldier. This is term often used for soldiers of the period, especially Roman ones. The Tirones were new roman recruits, with less then 6 months of training, typically.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -63,7 +63,7 @@
         "milites": {
             "name": "Milites",
             "description": "The Latin term 'Milites' was another word for a 'professional soldier', and during the early part of the middle ages, was a term also used for warriors that were minor nobility (knights).",
-            "subfactions": ["late_romano-british"],
+            "subfactions": ["late_romano_british"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -134,10 +134,47 @@
                 }
             ]
         },
+        "limitanei": {
+            "name": "British Limitanei",
+            "description": "While more recent research has increasingly proven that Limitanei were professional soldiers, there is still plenty of indicatation that their level of training, regular pay, and equipment degraded over time. This unit can also represent late auxillary forces, or romanized people trained to fight as light infantry. This unit also represents forces that can fight shoulder to shoulder, but prefer to be more mobile, while also not being trained in the 'shield wall' tactic.",
+            "subfactions": ["romano_british_early", "late_romano_british", "none"],
+            "category": "core",
+            "min": 1,
+            "max": 1,
+            "rules": ["light_infantry", "light_spearmen"
+                
+            ],
+            "keywords": [
+                "Infantry", "Drilled"
+            ],
+            "models": [
+                {
+                    "name": "Limitanei",
+                    "courage": 5,
+                    "movement": 6,
+                    "shoot": 5,
+                    "fight": 5,
+                    "defense": 5,
+                    "reflexes": 5,
+                    "wounds": 1,
+                    "weapons": ["shield", "spear"],
+                    "options": [
+                        {"replaceWeapon": "shield", "withWeapon":"bow"},
+                        {"addWeapon": "javelin"},
+                        {"addWeapon": "heavy_throwing_spear"},
+                        {"addRule": "reluctant"},
+                        {"addRule": "agile"}
+                    ],
+                    "rules": [],
+                    "min": 5,
+                    "max": 10
+                }
+            ]
+        },
         "sagittarii": {
             "name": "Sagittarii",
             "description": "In the late Roman Empire Sagittarii (Archers) became increasingly more important, likely to counter the rising barbarian threat.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -206,7 +243,7 @@
         "worst_equites": {
             "name": "Tirone Equites",
             "description": "Not every single Equites was as coordinated, experienced, and trained as the others. While a coat of mail was very expensive, so too was the war horse. Some riders would be only able to afford a simple riding horse and a sword. ",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -239,7 +276,7 @@
         "equites": {
             "name": "Equites",
             "description": "The 'Equites' were members of a landowning social class, much like minor nobility. In many cultures, a warrior who could afford a horse, often fought mounted, and thus the wealthy and nobles made up much of the cavalry. The Romans and those who adopted elements of their culture were no exception.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -272,7 +309,7 @@
         "cohors": {
             "name": "Cohors",
             "description": "Many different words have been used for the retired roman veterans, the experienced warriors trained in roman style, and the the mercenaries or former Foederati (Barbarians trained and employed by the Romans). Some call them 'commanipulares' (After the men who made up the old Republican Maniple), while others might refer to them as 'Cohors peditata' (Meaning infantry organized into 'Cohorts' according to the Marian reforms).",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "elite",
             "min": 1,
             "max": 1,
@@ -298,7 +335,9 @@
                         {"replaceWeapon": "spartha", "withWeapon":"spear"},
                         {"addWeapon": "javelin"},
                         {"addWeapon": "heavy_throwing_spear"},
-                        {"addRule": "light_armor"}
+                        {"addRule": "light_armor"},
+                        {"replaceRule": "spearmen", "withRule": "light_professional_swordsmen"},
+                        {"replaceWeapon": "spartha", "withWeapon":"spear"}  
                     ],
                     "rules": [],
                     "min": 5,
@@ -309,7 +348,7 @@
         "mount_cohors": {
             "name": "Mounted Cohors",
             "description": "During such desperate times, surviving roman warlords and nobility, along with conquering barbarians, maintained private bands of elite warriors. These men would be given the finest gear and equipment, if possible. Typically the men might be recruited from former Foederati, Palatini, or other elite, professional warriors. They might even be sons of such men, trained from boyhood to replace their fathers.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "elite",
             "min": 1,
             "max": 1,
@@ -345,7 +384,7 @@
         "equites_cataphractarii": {
             "name": "Equites Cataphractarii",
             "description": "The late romans made heavy use of 'equites legionis'. Many of these mounted warriors were actually barbarians recruited from nomadic warrior peoples, and various other cultures with strong traditions of mounted warriors. The best of these warriors saw heavy action in 'the east', and were known as 'Equites cataphractarii'. Despite the fact that these units were rarely deployed in 'the west', many of them had very obviously Gaulish names. It wouldn't be especially  hard for retired Equites cataphractarii, romanized peoples, and various mounted cultures in the west to form their own brand new 'Equites cataphractarii'. Unlike what some people mistakenly believe, the Auxilia 'Sarmatians', were last recorded in the area around the 300s and over time any cavalry traditions they taught would be forgotten.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "elite",
             "min": 1,
             "max": 1,
@@ -382,7 +421,7 @@
         "blessed_equites": {
             "name": "Blessed Cataphractarii",
             "description": "This unit represents the most elite cavalry available to the Romanized Britians, as they fought to preserve their way of life and religion. These units could merely be 'royal' or 'house' bodyguards of a Dux or Rex, but they can also represent the personal guard of 'Arthur' himself.",
-            "subfactions": ["late_romano-british"],
+            "subfactions": ["late_romano_british"],
             "category": "elite",
             "min": 1,
             "max": 1,
@@ -420,7 +459,7 @@
         "pony_scouts": {
             "name": "Romano British Scouts",
             "description": "While the Britons were attached to their horses, the quality of horses was rapidly decreasing, and so horses became mostly a status symbol and a way of getting around.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -498,7 +537,7 @@
         "brythonic_skirmishers": {
             "name": "Brythonic Skirmishers",
             "description": "'Brythonic' refers to people who spoke a 'celtic language', mainly the 'Britons' who lived in Brittany, the Welish, and the Britons who once ruled the lands that would become England. Like many cultures, including the Romans, those who couldn't fully afford their own spear and shield often fought as skirmishers.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none", "brittany"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none", "brittany"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -573,7 +612,7 @@
         "comes": {
             "name": "Comes",
             "description": "A Comes (plural, comites), was another latin word, like 'Dux'. This word meant 'companion', but increasingly among late Romans and 'Migration Era' Germanic peoples, meant 'military leader'. This word eventually evolved into the term 'count' and under the Franks and Romano-British, became a rank of nobility.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none"],
             "category": "command",
             "min": 1,
             "max": 1,
@@ -604,7 +643,7 @@
         "magnate": {
             "name": "Magnate",
             "description": "A 'Magnate' was an appointed offical, powerful landowner, or wealthy merchant. With these kinds of resources, they either were or would eventually become noblity. Such types of men were not military leaders, or part of a military social class, but they could muster fairly reasonable armies of their own.",
-            "subfactions": ["romano_british_early", "late_romano-british", "none"],
+            "subfactions": ["romano_british_early", "late_romano_british", "none"],
             "category": "command",
             "min": 1,
             "max": 1,
@@ -693,7 +732,7 @@
         "geoguth": {
             "name": "Geoguth Mercenaries",
             "description": "A band of Geoguth (Pronouced Yoo-Guths), was the young men and boys of a Saxon warband. Typically these men followed less experienced leaders, warlords, and chieftains. According to records and lore, the Saxons were employed by mercenaries to drive away the Picts. Archaeological evidence shows that while half of the Romano-British lands were quick to fall, the rest of the area stayed quite wealthy and urbanized for awhile. Archaeological evidence also shows strong indication of trade with the Byzantines, constant feasting sites along the coast, and plentiful trade of rare tin and valuable wool. Considering that much of 'mainland europe' was being pillaged and was in worse condiiton, the Romano-British would be along the wealthiest and most able to employ 'savages' and 'barbarians' as mercenaries. The romans indeed, had maintained the practice of 'Foederati'",
-            "subfactions": ["late_romano-british"],
+            "subfactions": ["late_romano_british"],
             "category": "core",
             "min": 1,
             "max": 3,
@@ -764,60 +803,7 @@
         "inputs": ["x"],
         "description": "When this unit is activated, choose up to X friendly _Infantry_ units within 9\" to receive one of the following bonuses until the end of the round: \n * Re-roll failed Accuracy tests of 9+ \n * Re-roll failed Strength tests of 9+ \n",
         "points": [10]
-},
-"notes": "These are redundant because my pushes are not being accepted and I need these rules to work for playtesting.",
-"skirmisher_formation": {
-    "name": "Skirmisher Formation",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0]
-},
-"vet_skirmisher_formation": {
-    "name": "Veteran Skirmishers",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0.5]
-},
-"light_infantry": {
-    "name": "Light Infantry",
-    "hidden": false,
-"description": "(This unit cannot use 'Spearmen' Rule) Optional: +1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as traditional infantry.",
-    "points": [1]
-},
-"light_cavalry": {
-    "name": "Light Cavalry",
-    "hidden": false,
-    "description_short": "",
-    "description": "Optional: +1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as medium cavalry.",
-    "points": [1]
-},
-"man_of_god": {"name": "Man of God", "description": "This unit can be merged with any other unit, that unit may re-roll any failed Courage test when removing Shock once per turn.", "points": 15},
-            "spearmen": {"name": "Spearmen", "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction and ignores 'Horseman Warrior Culture'.", "points": 0.5},
-            "pike": {"name": "Pike", "description": "Should this unit be charged, it has +1 Strength when performing a Counter-Attack reaction and it gets to attack first.", "points": 1.5},
-            "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
-            "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
-            "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
-            "mount_warrior_culture": {"name": "Horseman Warrior Culture", "description": "(Note: Requires melee weapon and Horse/War Horse) This unit gets a +1 Str during a Charge", "points": 1},
-            "mount_horse": {
-                "name": "Mounted (Horse)",
-                "description": "Increase this model's Movement by 2\". This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount.",
-                "points": 2
-            },
-            "war_horse": {"name": "War Horse (Destrier/Stallion)", "description": "Increase Movement by 2\". This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount. ", "points": 3},
-            "travel_horse": {"name": "Travel Horse (Courser/Pony)", "description": "Decreases Saves against ranged attacks by 1, but increases Movement by 2\". 'light infantry' with this rule, are treated as having the 'light cavalry' rule. This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount.", "points": 1.5},
-            "buckler": {
-                "name": "Buckler",
-                "hidden": true,
-                "description_short": "+1 Save to melee, unless in skirmish, then +1 Save.",
-                "description": "+1 Save to melee only, unless in skirmish formation, in which case it gives +1 Save to ranged too.",
-                "points": ["model.rules.wounds.x", {"max": 1}, {"multiply": 1}]
-            }    
+}
         },
     "relics": {
         "arthur_people": {
@@ -855,7 +841,7 @@
             "cost": 1
         },
         {
-        "subfactions": ["romano_british_early", "late_romano-british", "none"],
+        "subfactions": ["romano_british_early", "late_romano_british", "none"],
         "name": "Shield Wall",
         "phase": "activation",
         "description": "All units with shields and spears equipped (light infantry not included), if that unit moved one or no times this round, and if charged or targeted by a shooting attack it gets +1 Save and ignores the 'superior_cavalry' rule.. This effect remains in place till the unit moves.",
@@ -863,21 +849,21 @@
         "cost": 1
     },
     {
-        "subfactions": ["romano_british_early", "late_romano-british", "none"],
+        "subfactions": ["romano_british_early", "late_romano_british", "none"],
         "name": "Bolster",
         "phase": "activation",
         "description": "Use when an Infantry unit is targeted by an enemy. If it did not move this round, that unit may increase its cover level by 1 (none to normal, normal to fortified).",
         "cost": 1
     },
     {
-        "subfactions": ["late_romano-british"],
+        "subfactions": ["late_romano_british"],
         "name": "Soldiers of God",
         "phase": "activation",
         "description": "Pick one or two units 6' from a Abbod or Rex unit. These unit/s gain a +1 to Initiative till their next activation.",
         "cost": 1
     },
     {
-        "subfactions": ["late_romano-british", "brittany"],
+        "subfactions": ["late_romano_british", "brittany"],
         "name": "My Home",
         "phase": "activation",
         "description": "Use when activating a 'Core' or 'Rare' unit. That unit gets +1 Courage till the end of turn.",

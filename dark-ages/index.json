@@ -9,7 +9,7 @@
     "norse": {"name": "Norse", "id": "norse", "url": "norse.json", "color": "#6372AA", "secondary_color": "9f0807", "alliance": "north_sea"},
     "slavs": {"name": "Slavs (Rus and Polish)", "id": "slavs", "url": "slavs.json", "color": "#D83658"},
     "steppe_peoples_magyars": {"name": "Steppe Peoples and Magyars", "id": "steppe_peoples_magyars", "url": "steppe_peoples_magyars.json", "color": "#D83658"},
-    "british_and_welsh_kingdoms": {"name": "British And Welsh Kingdoms", "id": "british_and_welsh_kingdoms", "url": "british_and_welsh_kingdoms.json", "color": "#2596be"},
+    "british_and_welsh_kingdoms": {"name": "British And Welsh Kingdoms (Brythonic)", "id": "british_and_welsh_kingdoms", "url": "british_and_welsh_kingdoms.json", "color": "#2596be"},
     "germanic_italo_kingdoms": {"name": "Central European Kingdoms", "id": "germanic_italo_kingdoms", "url": "germanic_italo_kingdoms.json", "color": "#D83658"},
     "barbarians": {"name": "Invading Tribes", "id": "barbarians", "url": "barbarians.json", "color": "#D83658"}
   },
@@ -48,8 +48,8 @@
     "pike": {"name": "Pike", "attacks": 1, "short": "Melee", "ap": 1, "rules": ["cumbersome", {"id": "reach", "x": 2}, {"id": "pike"}]},
     "crossbow": {"name": "Crossbow", "attacks": 1, "short": 18, "medium": 36, "ap": 2, "rules": ["indirect", "reload"]},
     "javelin": {"name": "Javelins", "attacks": 1, "short": 12, "ap": 1, "rules": ["assault"]},
-    "plumbata": {"name": "Plumbata", "attacks": 1, "short": 6, "ap": 2, "rules": [{"id": "rapid_fire"}, "assault"]},
-    "heavy_throwing_spear": {"name": "Heavy Throwing Spears", "attacks": 1, "short": 12, "ap": 2, "rules": ["assault"]},
+    "plumbata": {"name": "Plumbata", "attacks": 1, "short": 9, "medium": 18, "ap": 1, "rules": ["brutal", "assault"]},
+    "heavy_throwing_spear": {"name": "Heavy Throwing Spears", "attacks": 1, "short": 6, "ap": 2, "rules": ["assault"]},
     "short_bow": {"name": "Short Bow", "attacks": 1, "short": 9, "medium": 18, "ap": 1},
     "bow": {"name": "Bow", "attacks": 1, "short": 12, "medium": 24, "ap": 1},
     "sling": {"name": "Sling", "attacks": 1, "short": 12, "medium": 24, "ap": 1, "rules": [{"id": "sling_volley"}]},
@@ -214,9 +214,15 @@
     "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
     "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
     "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
+    "mount_warrior_culture": {"name": "Horseman Warrior Culture", "description": "(Note: Requires melee weapon and Horse/War Horse) This unit gets a +1 Str during a Charge", "points": 1},
     "light_spearmen": {
       "name": "Light Spearmen",
       "description": "(Note: Requires unmounted, spear) Should this unit do a 'Hold' action and be charged by Cavalry before it's next turn, it has +1 Strength when performing a Counter-Attack reaction. This unit also ignores 'Horseman Warrior Culture'.",
+      "points": 0
+    },
+    "light_professional_swordsmen": {
+      "name": "Light Professional Swordsmen",
+      "description": "(Note: Requires unmounted, Spatha) Should this unit do a 'Hold' action, it has +1 Save when rolling against hits from an opposing Charge action. This unit also ignores 'Warrior Culture'.",
       "points": 0.5
     }
   }

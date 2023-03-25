@@ -132,7 +132,6 @@
         },
         "volkssturm": {
             "name": "Volkssturm",
-            "description": "Cheap infantry to be used en-masse to take and hold the field.",
             "description": "The Volkssturm 'people's storm', a group of conscripted males between 16-60, who weren't previously in another military unit. This national militia, was not part of the Germany Army, was instead raised, recruited, and armed by the Nazi Party. The Volkssturm was part of the doctrine of 'total war', a heavily ideologically colored endeavor to win the war with sheer force of will.",
             "category": "infantry",
             "subfactions": ["none", "reserves_focus"],
@@ -169,7 +168,6 @@
         },
         "volksgrenadiers": {
             "name": "Volksgrenadiers",
-            "description": "Cheaper infantry with the ability to take several assault rifles and hit targets reasonably well.",
             "description": "Volksgrenadiers, 'Peoples Grenadiers'. Due to a shortage of manpower and the abundance of enemies with large populations, the Volksgrenadiers were units that conserved manpower and maximized automatic firepower, along with recent technological advances. They were made up of a mixture of hardened veteran troops, 'jobless' personnel from other branches of the Germany Armed Forces, recently healed soldiers who had been wounded, and younger/older men recently recruited with the widened age range of conscription.",
             "min": 1,
             "max": 1,
@@ -212,7 +210,6 @@
         },
         "aufklarungs_squad": {
             "name": "Aufklarungs Squad",
-            "description": "A recon squad with the ability to take some heavier anti-infantry firepower.",
             "description": "The Aufklärungsabteilung (Reconnaissance Detachment) was a formation of aggressive recon troops, which provided the 'eyes and ears' of each German Army division..",
             "min": 1,
             "max": 1,
@@ -251,14 +248,15 @@
         },
         "osttruppen": {
             "name": "Osttruppen",
-            "description": "Reasonably well-equipped and trained troops, osttruppen are not eager to fight the enemies of Germany.",
             "description": "The Osttruppen (eastern troops), also known as 'Ostlegionen' (eastern legions), were captured soviet and slavic infantry prisoners of war. While many common terms for these troops, in many languages, translated to 'Volunteer', the terms mainly appeared to sarcastic and/or meant to be insulting. These slavic infantry were viewed as 'sub-human' by the Nazis, and it appeared those who actually volunteered, had done so to escape the horrors of the POW camps. These troops were given some of the worst equipment and positioned into roles of logistics, or 'bandit fighting' (Punishing civilians).",
             "min": 1,
             "max": 1,
             "category": "infantry",
             "subfactions": ["none", "infantry_focus", "reserves_focus"],
             "keywords": ["Infantry"],
-            "options": [{"addWeapon": "at_grenades", "modelLimit": 3}, {"addWeapon": "panzerfaust", "modelLimit": 1}],
+            "options": [{"addWeapon": "at_grenades", "modelLimit": 3}, 
+            {"addWeapon": "panzerfaust", "modelLimit": 1},
+            {"addRule": ["reluctant"], "modelLimit": "all"}],
             "models": [
                 {
                     "name": "Osttruppen NCO",
@@ -290,7 +288,6 @@
         },
         "Strafbataillon": {
             "name": "Strafbataillon",
-            "description": "Particularly tough troops who can put up a fight in close combat. Not especially motivated however.",
             "description": "Strafbatallion (Penal Battalion) generally refers to a few different terms, for units that were recruited or formed from those who had too much 'indiscipline' or 'rebellious behavior' to serve as traditional conscripts. There are strong indications that as the war progressed and turned for the worse for the Nazi regime, the various populations of those sentenced to death for treason or even perhaps murder, were put under strong supervision and sent out to fight. Most of these units spent the bulk of their time doing hard labor and being part of 'suicide missions', at least in the early part of the war. Generally, there was less then stellar discipline  within these units, and they were rarely equipped well.",
             "category": "infantry",
             "subfactions": ["none", "infantry_focus", "reserves_focus"],
@@ -502,8 +499,7 @@
         },
         "luftwaffe_infantry": {
             "name": "Luftwaffe Field Jager",
-            "description": "Luftwaffe Logistics personnel who have volunteered to reinforce the Heer, but lacking in equipment and infantry training.",
-            "description": "Before the branches outside the Heer were completely canibalized, the Luftwaffe reinforced the Heer with multiple Luftwaffe Field Divisions. These men had volunteered for the Luftwaffe and then again volunteered for the Field Divisions. While these men were often more ideological than the Heer, they were often former logistics elements given minimal infantry training.",
+           "description": "Before the branches outside the Heer were completely canibalized, the Luftwaffe reinforced the Heer with multiple Luftwaffe Field Divisions. These men had volunteered for the Luftwaffe and then again volunteered for the Field Divisions. While these men were often more ideological than the Heer, they were often former logistics elements given minimal infantry training.",
             "min": 1,
             "max": 5,
             "category": "infantry",
@@ -983,7 +979,6 @@
         },
         "panzer_zerstor_trupp": {
             "name": "Panzer-Zerstörer Trupp",
-            "description": "A dedicated tank hunting unit which can be equipped with various tank-hunting weapons.",
             "description": "A professional and specialized team for defeating tanks via throwables, traps, and demolition charges. It consists of a leader and runner, a security team, a smoke team, and a demolition team. These teams each operate somewhat independently of each other, and were adapted or modified according to local conditions.",
             "min": 1,
             "max": 1,

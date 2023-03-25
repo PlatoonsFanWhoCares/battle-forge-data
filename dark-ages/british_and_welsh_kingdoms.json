@@ -160,7 +160,7 @@
             "category": "core",
             "min": 1,
             "max": 1,
-            "rules": ["warband", "shield", "if_it_bleeds", "spearmen"],
+            "rules": ["warband", "shield", "if_it_bleeds", "light_spearmen"],
             "keywords": ["Infantry"],
             "models": [
                 {
@@ -173,7 +173,9 @@
                     "reflexes": 5,
                     "wounds": 1,
                     "weapons": ["javelin", "hand_weapon"],
-                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]}],
+                    "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
+                {"replaceRule": "light_spearmen", "withRule": "warrior_culture"}
+            ],
                     "min": 5,
                     "max": 15
                 }
@@ -201,7 +203,8 @@
                     "weapons": ["javelin", "hand_weapon"],
                     "options": [{"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
                     {"addRule": "stubborn"},
-                    {"replaceRule": "light_infantry", "withRule": "light_spearmen"},
+                    {"replaceRule": ["warrior_culture"], "withRule": "light_spearmen"},
+                    {"replaceRule": ["warrior_culture", "light_infantry"], "withRule": "spearmen"},
                     {"addRule": "reluctant"}
                 ],
                     "min": 5,
@@ -247,7 +250,7 @@
             "category": "core",
             "min": 1,
             "max": 1,
-            "rules": ["warband", "shield", "if_it_bleeds", "light_cavalry", "travel_horse"],
+            "rules": ["warband", "buckler", "if_it_bleeds", "light_cavalry", "travel_horse"],
             "keywords": ["Cavalry"],
             "models": [
                 {
@@ -261,6 +264,8 @@
                     "wounds": 1,
                     "weapons": ["hand_weapon", "javelin"],
                     "options": [
+                    {"addRule": "stubborn"},
+                    {"replaceRule": "buckler", "withRule": "shield"}
                         ],
                     "min": 5,
                     "max": 10
@@ -620,7 +625,7 @@
                     "reflexes": 5,
                     "wounds": 1,
                     "weapons": [
-                        "sling", "hand_weapon"
+                        "sling", "unarmed"
                     ],
                     "options": [
                         {
@@ -632,7 +637,14 @@
                                 "short_bow",
                                 "javelin"
                             ]
-                        }, {"addRule": "reluctant"},
+                        }, 
+                        {
+                            "replaceWeapon": "unarmed",
+                            "withWeapon": [
+                                "hand_weapon"
+                            ]
+                        }, 
+                        {"addRule": "reluctant"},
                         {"addRule": "agile"}, {"addRule": "buckler"}
                     ],
                     "notes": "Add special rules here",
@@ -644,7 +656,7 @@
         },
         "bonnedig": {
             "name": "Bonnedig",
-            "description": "'Bonnedig' ('Poorest Freemen') was the word used for those who couldn't fully afford their own spear and shield often fought as skirmishers. These people were mostly the very poor and very young. ",
+            "description": "'Bonnedig' ('Poorest Freemen') was the word used for those who couldn't fully afford their own spear and shield often fought as skirmishers. In reality, this social class often was hard to distinguish from the unfree.",
             "category": "core",
             "subfactions": ["south_welsh", "powys", "gwynedd"],
             "min": 1,
@@ -664,19 +676,30 @@
                     "reflexes": 5,
                     "wounds": 1,
                     "weapons": [
-                        "sling", "hand_weapon"
+                        "sling", "unarmed"
                     ],
                     "options": [
                         {
                             "addWeapon": "shield"
                         },
                         {
+                            "addWeapon": "buckler"
+                        },
+                        {
                             "replaceWeapon": "sling",
                             "withWeapon": [
                                 "bow",
-                                "javelin"
+                                "javelin",
+                                "short_bow"
                             ]
-                        }, {"addRule": "reluctant"},
+                        }, 
+                        {
+                            "replaceWeapon": "unarmed",
+                            "withWeapon": [
+                                "hand_weapon"
+                            ]
+                        }, 
+                        {"addRule": "reluctant"},
                         {"addRule": "agile"}
                     ],
                     "notes": "Add special rules here",
@@ -1021,38 +1044,6 @@
             "description": "Any figure in at least two chosen units, can be upgraded with 'light_armor' for 2 points.",
             "points": [0]
     },
-    "notes": "The rules below are duplicated, because my submissions are not being accepted and I this whole page to work with just this single file.",
-"skirmisher_formation": {
-    "name": "Skirmisher Formation",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0]
-},
-"vet_skirmisher_formation": {
-    "name": "Veteran Skirmishers",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0.5]
-},
-"light_infantry": {
-    "name": "Light Infantry",
-    "hidden": false,
-"description": "(This unit cannot use 'Spearmen' Rule) Optional: +1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as traditional infantry.",
-    "points": [1]
-},
-"light_cavalry": {
-    "name": "Light Cavalry",
-    "hidden": false,
-    "description_short": "",
-    "description": "Optional: +1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as medium cavalry.",
-    "points": [1]
-},
 "minor_leader": {
                         "name": "Minor Leader",
                         "description": "When activated, this unit may perform a group activation with 1 other friendly unit within 6\". Said unit may use this unit's Courage and Initiative value when taking skill tests.",
@@ -1062,41 +1053,7 @@
                         "name": "Retinue",
                         "description": "For every unit of this type chosen, at least one unit with the 'minor_leader' or 'leader' rules must be chosen as well. ",
                         "points": 0
-                      },             
-        "furious_charge": {
-                        "name": "Furious Charge",
-                        "hidden": false,
-                        "description_short": "Charge and win, enemy unit breaks",
-                        "description": "(Requires War Horse) If this unit charges another and 'wins' the first round of combat, the other unit has to roll a break test. If the other unit has 'stubborn' rule, roll a d6, on a 1,2,or 3 the other unit avoids the break test.",
-                        "flavor": "The fury of heavy cavalry was terrifying to those not prepared for the loud pounding of hooves and for the sheer weight of the charge.",
-                        "points": [3]},
-         "superior_cavalry": {
-                            "name": "Superior Cavalry",
-                            "hidden": false,
-                            "description": "(Requires War Horse) If this unit charges or 'counter-charges' (Melee version of Counter Attack reaction) another unit, any melee attacks made at that time, can optionally be rerolled a single time.",
-                            "points": [4]
-                        },
-                        "man_of_god": {"name": "Man of God", "description": "This unit can be merged with any other unit, that unit may re-roll any failed Courage test when removing Shock once per turn.", "points": 15},
-            "spearmen": {"name": "Spearmen", "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction and ignores 'Horseman Warrior Culture'.", "points": 0.5},
-            "pike": {"name": "Pike", "description": "Should this unit be charged, it has +1 Strength when performing a Counter-Attack reaction and it gets to attack first.", "points": 1.5},
-            "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
-            "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
-            "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
-            "mount_warrior_culture": {"name": "Horseman Warrior Culture", "description": "(Note: Requires melee weapon and Horse/War Horse) This unit gets a +1 Str during a Charge", "points": 1},
-            "mount_horse": {
-                "name": "Mounted (Horse)",
-                "description": "Increase this model's Movement by 2\". This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount.",
-                "points": 2
-            },
-            "war_horse": {"name": "War Horse (Destrier/Stallion)", "description": "Increase Movement by 2\". This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount. ", "points": 3},
-            "travel_horse": {"name": "Travel Horse (Courser/Pony)", "description": "Decreases Saves against ranged attacks by 1, but increases Movement by 2\". 'light infantry' with this rule, are treated as having the 'light cavalry' rule. This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount.", "points": 1.5},
-            "buckler": {
-                "name": "Buckler",
-                "hidden": true,
-                "description_short": "+1 Save to melee, unless in skirmish, then +1 Save.",
-                "description": "+1 Save to melee only, unless in skirmish formation, in which case it gives +1 Save to ranged too.",
-                "points": ["model.rules.wounds.x", {"max": 1}, {"multiply": 1}]
-            }
+                      }
         },
     "relics": {
         "athelstan": {
@@ -1157,7 +1114,7 @@
         "subfactions": ["gwynedd"],
         "name": "Mixed Weapons",
         "phase": "activation",
-        "description": "Use before a unit makes a charge action (Requires unit to have javelins and no spears), half the units figures may make a 'Shoot' action with their javelins.",
+        "description": "Use before a unit makes a charge action (Requires unit to have javelins and no spears), half the unit's figures may make a 'Shoot' action with their javelins.",
         "flavor": "",
         "cost": 1
     },

@@ -1630,9 +1630,6 @@
     }
 },
     "weapons": {
-        "spear": {"name": "Spear", "attacks": 1, "short": "Melee", "ap": 1, "rules": [{"id": "reach", "x": 1}, {"id": "impale"}]},
-        "short_bow": {"name": "Short Bow", "attacks": 1, "short": 9, "medium": 18, "ap": 1},
-        "horse_attack": {"name": "Hooves and Teeth", "attacks": 1, "short": "Melee"}
 },
     "rules": {
         "fierce": {
@@ -1652,38 +1649,6 @@
                     "hidden": false,
                     "description_short": "This model may use Field Orders one additional time.",
                     "points": [10]},
-"notes": "The rules below are duplicated, because my submissions are not being accepted and I this whole page to work with just this single file.",
-"skirmisher_formation": {
-    "name": "Skirmisher Formation",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0]
-},
-"vet_skirmisher_formation": {
-    "name": "Veteran Skirmishers",
-    "hidden": false,
-    "description_short": "+1 Save to ranged hits at ranges further than 12', -1 Save to Melee",
-    "description": "+1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
-    "points": [0.5]
-},
-"light_infantry": {
-    "name": "Light Infantry",
-    "hidden": false,
-"description": "(This unit cannot use 'Spearmen' Rule) Optional: +1 save against ranged attacks made at long range, -1 Save to Melee.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as traditional infantry.",
-    "points": [1]
-},
-"light_cavalry": {
-    "name": "Light Cavalry",
-    "hidden": false,
-    "description_short": "",
-    "description": "Optional: +1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
-    "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as medium cavalry.",
-    "points": [1]
-},
 "minor_leader": {
                         "name": "Minor Leader",
                         "description": "When activated, this unit may perform a group activation with 1 other friendly unit within 6\". Said unit may use this unit's Courage and Initiative value when taking skill tests.",
@@ -1693,28 +1658,7 @@
                         "name": "Retinue",
                         "description": "For every unit of this type chosen, at least one unit with the 'minor_leader' or 'leader' rules must be chosen as well. ",
                         "points": 0
-                      },             
-        "furious_charge": {
-                        "name": "Furious Charge",
-                        "hidden": false,
-                        "description_short": "Charge and win, enemy unit breaks",
-                        "description": "(Requires War Horse) If this unit charges another and 'wins' the first round of combat, the other unit has to roll a break test. If the other unit has 'stubborn' rule, roll a d6, on a 1,2,or 3 the other unit avoids the break test.",
-                        "flavor": "The fury of heavy cavalry was terrifying to those not prepared for the loud pounding of hooves and for the sheer weight of the charge.",
-                        "points": [3]},
-         "superior_cavalry": {
-                            "name": "Superior Cavalry",
-                            "hidden": false,
-                            "description": "(Requires War Horse) If this unit charges or 'counter-charges' (Melee version of Counter Attack reaction) another unit, any melee attacks made at that time, can optionally be rerolled a single time.",
-                            "points": [4]
-                        },
-                        "man_of_god": {"name": "Man of God", "description": "This unit can be merged with any other unit, that unit may re-roll any failed Courage test when removing Shock once per turn.", "points": 15},
-            "spearmen": {"name": "Spearmen", "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction and ignores 'Horseman Warrior Culture'.", "points": 0.5},
-            "pike": {"name": "Pike", "description": "Should this unit be charged, it has +1 Strength when performing a Counter-Attack reaction and it gets to attack first.", "points": 1.5},
-            "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
-            "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
-            "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
-            "mount_warrior_culture": {"name": "Horseman Warrior Culture", "description": "(Note: Requires melee weapon and Horse/War Horse) This unit gets a +1 Str during a Charge", "points": 1}
-    },
+                      }},
             "relics": {
         "clovis": {
         "subfactions": ["early_merovingian_franks"],
