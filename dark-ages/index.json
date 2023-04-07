@@ -4,7 +4,7 @@
     "anglo_saxons": {"name": "Anglo Saxons", "id": "anglo_saxons", "url": "anglo_saxons.json", "color": "#436497", "alliance": "north_sea"},
     "saxons": {"name": "Saxons", "id": "saxons", "url": "saxons.json", "color": "#594228"},
     "franks": {"name": "Franks", "id": "franks", "url": "franks.json", "color": "#6372AA"},
-    "normans_bretons": {"name": "Normans and Bretons", "id": "normans_bretons", "url": "normans.json", "color": "#6372AA", "secondary_color": "#BDBDBD", "alliance": "north_sea"},
+    "normans_bretons": {"name": "Normans and Bretons", "id": "normans_bretons", "url": "normans_bretons.json", "color": "#6372AA", "secondary_color": "#BDBDBD", "alliance": "north_sea"},
     "romano_british": {"name": "Romano-British/Brittany", "id": "romano_british", "url": "romano_british.json", "color": "#2596be"},
     "norse": {"name": "Norse", "id": "norse", "url": "norse.json", "color": "#6372AA", "secondary_color": "9f0807", "alliance": "north_sea"},
     "slavs": {"name": "Slavs (Rus and Polish)", "id": "slavs", "url": "slavs.json", "color": "#D83658"},
@@ -41,15 +41,16 @@
   "strategies": {},
   "weapons": {
     "unarmed": {"name": "Unarmed", "attacks": 1, "short": "Melee"},
+    "stones": {"name": "Stones", "attacks": 1, "short": 6, "ap": 0, "rules": ["assault", "hurled_weapons"]},
     "hand_weapon": {"name": "Hand Weapon", "attacks": 1, "short": "Melee", "ap": 1},
     "sword": {"name": "Sword", "attacks": 1, "short": "Melee", "ap": 1},
     "spartha": {"name": "Spatha", "attacks": 1, "short": "Melee", "ap": 1, "rules": ["rending"]},
     "spear": {"name": "Spear", "attacks": 1, "short": "Melee", "ap": 1, "rules": [{"id": "reach", "x": 1}, {"id": "impale"}]},
     "pike": {"name": "Pike", "attacks": 1, "short": "Melee", "ap": 1, "rules": ["cumbersome", {"id": "reach", "x": 2}, {"id": "pike"}]},
     "crossbow": {"name": "Crossbow", "attacks": 1, "short": 18, "medium": 36, "ap": 2, "rules": ["indirect", "reload"]},
-    "javelin": {"name": "Javelins", "attacks": 1, "short": 12, "ap": 1, "rules": ["assault"]},
-    "plumbata": {"name": "Plumbata", "attacks": 1, "short": 9, "medium": 18, "ap": 1, "rules": ["brutal", "assault"]},
-    "heavy_throwing_spear": {"name": "Heavy Throwing Spears", "attacks": 1, "short": 6, "ap": 2, "rules": ["assault"]},
+    "javelin": {"name": "Javelins", "attacks": 1, "short": 12, "ap": 1, "rules": ["assault", "hurled_weapons"]},
+    "plumbata": {"name": "Plumbata", "attacks": 1, "short": 9, "medium": 18, "ap": 1, "rules": ["brutal", "assault", "hurled_weapons"]},
+    "heavy_throwing_spear": {"name": "Heavy Throwing Spears", "attacks": 1, "short": 6, "ap": 2, "rules": ["assault", "hurled_weapons"]},
     "short_bow": {"name": "Short Bow", "attacks": 1, "short": 9, "medium": 18, "ap": 1},
     "bow": {"name": "Bow", "attacks": 1, "short": 12, "medium": 24, "ap": 1},
     "sling": {"name": "Sling", "attacks": 1, "short": 12, "medium": 24, "ap": 1, "rules": [{"id": "sling_volley"}]},
@@ -70,7 +71,8 @@
     "spear_and_shield": {"name": "Spear and Shield", "attacks": 0, "short": "Melee", "rules": [{"id": "shield"}, {"id": "reach", "x": 2}]},
     "horse_attack": {"name": "Hooves and Teeth", "attacks": 1, "short": "Melee"}
   },
-  "rules": {
+  "rules": 
+  {"light_armor": {"name": "Light Armor", "description": "This model has +1 Save.", "description_short": "+1 Save", "points": ["model.rules.wounds.x", {"max": 1}, {"multiply": 2}]},
     "large_shield": {
       "name": "Large Shield",
       "hidden": true,
@@ -81,7 +83,7 @@
       "name": "Buckler",
       "hidden": true,
       "description_short": "+1 Save to melee, unless in skirmish, then +1 Save.",
-      "description": "+1 Save to melee only, unless in skirmish formation, in which case it gives +1 Save to ranged too.",
+      "description": "+1 Save to melee only, unless in skirmish or loose formation, in which case it gives +1 Save to ranged too.",
       "points": ["model.rules.wounds.x", {"max": 1}, {"multiply": 1}]
     },
     "sling_volley": {
@@ -91,24 +93,30 @@
       "description": "This model can fire twice at short range or 12 inches.",
       "points": ["weapon.attacks"]
     },
+    "hurled_weapons": {
+      "name": "Hurled Weapons",
+      "hidden": false,
+      "description": "When this unit is the target of a 'free shoot' action, such as by 'assasult' this unit (With this weapon) gets a free shoot reaction.",
+      "points": []
+    },
     "skirmisher_formation": {
       "name": "Skirmisher Formation",
       "hidden": false,
-      "description": "+1 save against ranged attacks made at long range, -1 Save to Melee.",
+      "description": "+1 save against ranged attacks made at long (or =/> 12'') range, -1 Save to Melee.",
       "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
       "points": [0]
     },
     "vet_skirmisher_formation": {
       "name": "Veteran Skirmishers",
       "hidden": false,
-      "description": "+1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
+      "description": "+1 save against ranged attacks made at long (or =/> 12'') range, -1 Save to Melee, and +1 to Initiative for rushing.",
       "flavor": "This unit is part of a spread out formation, which means it can more easily dodge incoming missiles, but is more vunerable to being rushed by infantry.",
       "points": [0.5]
     },
     "light_infantry": {
       "name": "Light Infantry",
       "hidden": false,
-      "description": "(This unit cannot use 'Spearmen' Rule) Optional: +1 save against ranged attacks made at long range, -1 Save to Melee.",
+      "description": "(This unit cannot use 'Spearmen' Rule) Optional Toggle (During Evade or Move action): Loose formation, +1 save against ranged attacks made at long (or =/> 12'') range, -1 Save to Melee.",
       "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as traditional infantry.",
       "points": [1]
     },
@@ -116,7 +124,7 @@
       "name": "Light Cavalry",
       "hidden": false,
       "description_short": "",
-      "description": "Optional: +1 save against ranged attacks made at long range, -1 Save to Melee, and +1 to Initiative for rushing.",
+      "description": "Optional Toggle (During Evade or Move action): +1 save against ranged attacks made at long (or =/> 12'') range, -1 Save to Melee, and +1 to Initiative for rushing.",
       "flavor": "This unit can choose to fight as skirmishers as a loose formation, or 'close up' to fight as medium cavalry.",
       "points": [1]
     },
@@ -165,7 +173,8 @@
     },
     "war_horse": {
       "name": "War Horse (Destrier/Stallion)",
-      "description": "Increase Movement by 2\". This unit may dismount at the end of any Move action. A unit that has dismounted may no longer remount. ",
+      "rule": "horse_attack",
+      "description": "Increase Movement by 2\". This unit may dismount at the end of any Move action. The unit gets a free, zero AP attack during Fight actions. A unit that has dismounted may no longer remount.",
       "points": 3
     },
     "travel_horse": {

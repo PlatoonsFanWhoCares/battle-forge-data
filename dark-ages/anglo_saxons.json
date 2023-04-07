@@ -1194,7 +1194,7 @@
         "subfactions": ["merica", "wessex", "late_kent", "anglian_kingdoms_heptarchy", "anglo_danes", "none"],
         "name": "Shield Wall",
         "phase": "activation",
-        "description": "Only units with shields and spears equipped (light infantry not included), if that unit moved one or no times this round, and if charged or targeted by a shooting attack it gets +1 Save and ignores the 'superior_cavalry' rule. This effect remains in place till the unit moves.",
+        "description": "Only units with shields and spears equipped (light infantry not included), if that unit moved one or no times this round, and if charged or targeted by a shooting attack it gets +1 Save (But only against one attack) and ignores the 'superior_cavalry' rule. This effect remains in place till the unit moves.",
         "flavor": "The bordweall (Old English for 'Shield Wall'), was a tactic and model of fighting that grew popular with the Anglo-Saxons right before or around the start of the Viking Invasion. Communities were organized into sizes that would produce a 'fyrd', which is a part time militia of freemen/ceorls, who fought shoulder to shoulder in formation.",
         "cost": 1
     },

@@ -942,7 +942,7 @@
       "models": [
         {
           "name": "Tudun",
-          "courage": 6,
+          "courage": 7,
           "movement": 6,
           "shoot": 5,
           "fight": 5,
@@ -991,12 +991,12 @@
       "models": [
         {
           "name": "Knyaz/Voivode",
-          "courage": 6,
+          "courage": 8,
           "movement": 6,
           "shoot": 6,
           "fight": 7,
           "defense": 7,
-          "reflexes": 8,
+          "reflexes": 7,
           "weapons": [
             "spear",
             "shield"
@@ -1043,15 +1043,7 @@
         "constants.defenseCost"
       ],
       "hidden": true
-    },
-    "man_of_god": {"name": "Man of God", "description": "This unit can be merged with any other unit, that unit may re-roll any failed Courage test when removing Shock once per turn.", "points": 15},
-            "spearmen": {"name": "Spearmen", "description": "(Note: Requires unmounted, spear and shield) Should this unit do a 'Hold' action and be charged before it's next turn, it has +1 Strength when performing a Counter-Attack reaction and ignores 'Horseman Warrior Culture'.", "points": 0.5},
-            "pike": {"name": "Pike", "description": "Should this unit be charged, it has +1 Strength when performing a Counter-Attack reaction and it gets to attack first.", "points": 1.5},
-            "impale": {"name": "Impale", "description": "(Note: Requires horse or warhorse) This weapon gets +1 AP when used during a Charge.", "points": 0.5},
-            "joust": {"name": "Joust", "description": "(Note: Requires horse or warhorse) This weapon gets +2 AP when used during a Charge.", "points": 1},
-            "warrior_culture": {"name": "Warrior Culture", "description": "(Note: Requires attack with melee weapon without 'Reach') This unit gets a +1 Str during a Charge.", "points": 0.5},
-            "mount_warrior_culture": {"name": "Horseman Warrior Culture", "description": "(Note: Requires melee weapon and Horse/War Horse) This unit gets a +1 Str during a Charge", "points": 1}
-  },
+    }},
   "relics": [
 
   ],

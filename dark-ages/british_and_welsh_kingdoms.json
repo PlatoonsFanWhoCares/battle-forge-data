@@ -517,12 +517,12 @@
             "subfactions": ["early_gwynedd", "british"],
             "min": 1,
             "max": 1,
-            "rules": ["lead_by_example",{"id": "field_orders", "x": 2}, "leader"],
+            "rules": ["lead_by_example",{"id": "field_orders", "x": 2}, "leader", {"id": "wounds", "x": 2}],
             "keywords": ["command"],
             "models": [
                 {
                     "name": "Rex",
-                    "courage": 6,
+                    "courage": 7,
                     "movement": 6,
                     "shoot": 6,
                     "fight": 7,
@@ -552,7 +552,7 @@
             "subfactions": ["none", "dumnonia", "early_strathclyde", "south_welsh", "gwynedd"],
             "min": 1,
             "max": 1,
-            "rules": ["lead_by_example",{"id": "field_orders", "x": 2}, "leader"],
+            "rules": ["lead_by_example",{"id": "field_orders", "x": 2}, "leader", {"id": "wounds", "x": 2}],
             "keywords": ["command"],
             "models": [
                 {
@@ -582,7 +582,7 @@
             "subfactions": [],
             "min": 1,
             "max": 1,
-            "rules": ["lead_by_example",{"id": "field_orders", "x": 1}, "leader", "buckler"],
+            "rules": ["lead_by_example",{"id": "field_orders", "x": 1}, "leader", "buckler",{"id": "wounds", "x": 2}],
             "options": [{"addRule": "travel_horse"}],
             "keywords": ["Command"],
             "models": [

@@ -112,7 +112,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -149,7 +149,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -187,7 +187,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -225,7 +225,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -295,7 +295,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }]
             },
             "equites": {
@@ -363,7 +363,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -425,11 +425,11 @@
                     "wounds": 1,
                     "weapons": ["spear", "javelin"],
                     "options": [{"replaceWeapon": "javelin", "withWeapon": "heavy_throwing_spear"},                         
-                        {"addRule": "light_armor"}
+                        {"addRule": "light_armor"}, {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -458,11 +458,11 @@
                     "wounds": 1,
                     "weapons": ["spear", "javelin"],
                     "options": [{"replaceWeapon": "javelin", "withWeapon": "heavy_throwing_spear"},                         
-                        {"addRule": "light_armor"}
+                        {"addRule": "light_armor"}, {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -491,11 +491,11 @@
                     "wounds": 1,
                     "weapons": ["spartha", "javelin"],
                     "options": [{"replaceWeapon": "javelin", "withWeapon": "heavy_throwing_spear"},                         
-                        {"addRule": "light_armor"}
+                        {"addRule": "light_armor"}, {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -528,7 +528,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -566,7 +566,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -599,11 +599,11 @@
                         {"addWeapon": "javelin"},
                         {"addWeapon": "heavy_throwing_spear"},
                         {"replaceRule": "light_armor", "withRule": "heavy_armor"}, 
-                        {"addRule": "furious_charge"}
+                        {"addRule": "furious_charge"}, {"addRule": "mount_warrior_culture"}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -639,7 +639,7 @@
                         {"addWeapon": "javelin"},
                         {"addWeapon": "heavy_throwing_spear"},
                         {"addRule": "superior_cavalry"},
-                        {"addRule": "furious_charge"}
+                        {"addRule": "furious_charge"}, {"addRule": "mount_warrior_culture"}
                     ],
                     "rules": [],
                     "min": 5,
@@ -679,7 +679,7 @@
                         {"addWeapon": "javelin"},
                         {"addWeapon": "heavy_throwing_spear"},
                         {"addRule": "superior_cavalry"},
-                        {"addRule": "furious_charge"}
+                        {"addRule": "furious_charge"}, {"addRule": "mount_warrior_culture"}
                     ],
                     "rules": [],
                     "min": 5,
@@ -721,7 +721,7 @@
                         {"addWeapon": "heavy_throwing_spear"},
                         {"addRule": "small_banner"},
                         {"addRule": "superior_cavalry"},
-                        {"addRule": "furious_charge"}
+                        {"addRule": "furious_charge"}, {"addRule": "mount_warrior_culture"}
                         
                     ],
                     "rules": [],
@@ -1257,7 +1257,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },        
@@ -1294,7 +1294,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1323,7 +1323,7 @@
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]}
                         ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },  
@@ -1351,7 +1351,7 @@
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1381,7 +1381,7 @@
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]}
                         ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1411,11 +1411,12 @@
                     "weapons": ["spartha", "javelin"],
                     "options": [{"replaceWeapon": "javelin", "withWeapon": "heavy_throwing_spear"},    
                     {"replaceWeapon": "spartha", "withWeapon": "spear"},
-                    {"replaceRule": "light_armor", "withRule": "heavy_armor"}
+                    {"replaceRule": "light_armor", "withRule": "heavy_armor"},
+                    {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1444,11 +1445,12 @@
                     "wounds": 1,
                     "weapons": ["kontos"],
                     "options": [
-                    {"replaceRule": "light_armor", "withRule": "heavy_armor"}
+                    {"replaceRule": "light_armor", "withRule": "heavy_armor"},
+                    {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]}
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1552,7 +1554,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1585,7 +1587,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }]
             },
         "stratiotai_skutatoi": {
@@ -1620,7 +1622,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1655,7 +1657,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },  
@@ -1690,7 +1692,7 @@
                     ],
                     "rules": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1744,10 +1746,11 @@
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]},
                         {"addRule": "light_armor"}, {"addRule": "heavy_armor"},
-                        {"addRule": "superior_cavalry"}
+                        {"addRule": "superior_cavalry"},
+                    {"addRule": ["mount_warrior_culture"]}
                         ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         }
