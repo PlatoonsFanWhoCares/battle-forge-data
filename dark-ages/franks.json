@@ -76,7 +76,7 @@
                     {"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
                     {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -107,7 +107,7 @@
                         {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -133,7 +133,7 @@
                     "weapons": ["spear"],
                     "options": [],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -159,7 +159,7 @@
                         "weapons": ["spear", "javelin"],
                         "options": [],
                         "min": 5,
-                        "max": 10
+                        "max": 15
                     }
                 ]
             },
@@ -194,7 +194,7 @@
                         ],
                         "rules": [],
                         "min": 5,
-                        "max": 10
+                        "max": 15
                     }
                 ]
             },
@@ -223,7 +223,7 @@
                             {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]}
                             ],
                         "min": 5,
-                        "max": 10
+                        "max": 15
                     }
                 ]
             },  
@@ -251,7 +251,7 @@
                             {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                             {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]}],
                         "min": 5,
-                        "max": 10
+                        "max": 15
                     }
                 ]
             },  
@@ -442,7 +442,7 @@
                         {"addRule": "light_armor", "modelLimit": 5}
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -474,7 +474,7 @@
                         {"replaceWeapon": "spear", "withWeapon": ["hand_axe"]},
                         {"addRule": "light_armor", "modelLimit": 5}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -535,10 +535,11 @@
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
-                        {"addRule": "light_armor", "modelLimit": 5}
+                        {"addRule": "light_armor", "modelLimit": 5},
+                        {"addRule": "mount_warrior_culture"}
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -567,10 +568,11 @@
                     "options": [{"addWeapon": "javelin"},
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Angon"}]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
-                        {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]}
+                        {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
+                        {"addRule": "mount_warrior_culture"}
                 ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -601,11 +603,12 @@
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
                         {"replaceWeapon": "shield", "withWeapon": ["bow"]},
-                        {"addRule": "light_armor"}, {"addRule": "reluctant"}, {"addRule": "stubborn"}
+                        {"addRule": "light_armor"}, {"addRule": "reluctant"}, {"addRule": "stubborn"},
+                        {"addRule": "mount_warrior_culture"}
                     ],
-                    "notes": "Carol Cab Osprey states source that indicates this existed.",
+                    "notes": "Carol Cav Osprey states source that indicates this existed.",
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -639,11 +642,12 @@
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "spear", "withWeapon": ["hand_axe"]},
                         {"addRule": "light_armor"},
-                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]}
+                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]},
+                        {"addRule": "mount_warrior_culture"}
                     ],
                     "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units.",
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -677,11 +681,12 @@
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "spear", "withWeapon": ["hand_axe"]},
                         {"addRule": "light_armor"},
-                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]}
+                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]},
+                        {"addRule": "mount_warrior_culture"}
                     ],
                     "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units.",
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -718,7 +723,7 @@
                     ],
                     "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units.",
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -755,7 +760,7 @@
                     ],
                     "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units.",
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -809,7 +814,7 @@
                     "options": 
                     [{"addRule": "agile"}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -838,7 +843,7 @@
                     "options": [{"addWeapon": "javelin"},
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -867,7 +872,7 @@
                     "options": [{"addWeapon": "javelin"},
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]}],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1014,7 +1019,7 @@
                         {"replaceRule": "warrior_culture", "withRule": ["mount_warrior_culture"]}   
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1026,7 +1031,7 @@
             "min": 1,
             "max": 1,
             "rules": ["fierce", "retinue", "warrior_culture", "mount_horse", "light_cavalry"],
-            "keywords": ["Infantry"],
+            "keywords": ["Cavalry"],
             "models": [
                 {
                     "name": "Pueri",
@@ -1045,10 +1050,11 @@
                         {"replaceWeapon": "javelin", "withWeapon": [{"id": "heavy_throwing_spear", "name": "Angon"}]},
                         {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]},
-                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]}   
+                        {"replaceRule": "travel_horse", "withRule": ["mount_horse"]},
+                        {"replaceRule": ["warrior_culture", "light_cavalry"], "withRule": ["mount_warrior_culture"]}    
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1060,7 +1066,7 @@
             "min": 1,
             "max": 1,
             "rules": ["fierce", "retinue"],
-            "keywords": ["Cavalry"],
+            "keywords": ["Infantry"],
             "models": [
                 {
                     "name": "Pueri",
@@ -1081,7 +1087,7 @@
                         {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1116,7 +1122,7 @@
                         {"addRule": "mount_warrior_culture"}
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1152,7 +1158,7 @@
                         {"replaceRule": "warrior_culture", "withRule": ["mount_warrior_culture"]}   
                     ],
                     "min": 5,
-                    "max": 10
+                    "max": 15
                 }
             ]
         },
@@ -1182,9 +1188,12 @@
                             {"replaceWeapon": "javelin", "withWeapon": [{"id": "heavy_throwing_spear", "name": "Angon"}]},
                             {"replaceWeapon": "javelin", "withWeapon": "spear"},
                             {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
-                            {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
+                            {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]},
+                            {"addRule": "mount_warrior_culture"} 
+                        
+                        ],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1218,7 +1227,7 @@
                             {"addRule": "mount_warrior_culture"}
                         ],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1251,7 +1260,7 @@
                             {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]},
                             {"addRule": "mount_warrior_culture"}],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1284,7 +1293,7 @@
                             {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                             {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1316,7 +1325,7 @@
                             {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                             {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1349,7 +1358,7 @@
                             {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                             {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1381,7 +1390,7 @@
                     {"replaceRule": "travel_horse", "withRule": ["mount_horse"]}
                 ],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1470,7 +1479,7 @@
                 "options": [{"addWeapon": "javelin"}, {"addRule": "light_armor"},
                     {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]}],
                 "min": 5,
-                "max": 10
+                "max": 15
             }
         ]
     },
@@ -1517,7 +1526,7 @@
         "models": [
             {
                 "name": "Dux",
-                "courage": 6,
+                "courage": 7,
                 "movement": 6,
                 "shoot": 6,
                 "fight": 7,

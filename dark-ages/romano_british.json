@@ -482,7 +482,8 @@
                     "options": [
                         {"addWeapon": "javelin"},
                         {"addRule": "reluctant"},
-                        {"addRule": "buckler"}
+                        {"addRule": "buckler"},
+                        {"addRule": "scout"}
                     ],
                     "rules": [],
                     "min": 5,
