@@ -96,7 +96,7 @@
     "hurled_weapons": {
       "name": "Hurled Weapons",
       "hidden": false,
-      "description": "When this unit is the target of a 'free shoot' action, such as by 'assasult' this unit (With this weapon) gets a free shoot reaction.",
+      "description": "When this unit is targeted by an attack with an “Assault“ weapon this unit can make a free Shoot action with this weapon.",
       "points": []
     },
     "skirmisher_formation": {
@@ -132,7 +132,7 @@
       "name": "Warband",
       "hidden": false,
       "description_short": "+1 to attacking broken units, -1 to saves after becoming broken.",
-      "description": "+1 to attacking fleeing units (Failed a break test), -1 to fighting off chasing units (After it failed a break test).",
+      "description": "+1 to attacking disengaging / falling back units, -1 to saves if disengaging / falling back.",
       "flavor": "Warbands are units that due to a lack of professional training, are overconfident in the chase or while being fired upon, but are filled with fear when being chased or seeing the blood of their fellow countrymen.",
       "points": [-1]
     },

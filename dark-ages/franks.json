@@ -34,10 +34,10 @@
             "restricted": "true"
         },
         "aquitaine": {
-            "name": "Duchy of Aquitaine (660-769 AD)",
+            "name": "Duchy of Aquitaine (500-769 AD)",
             "phase": "activation",
             "id": "aquitaine",
-            "description": "The Duchy of Aquintaine was a semi-independent Frankish during period of Merovingian weakness. Being on the border of the Christian world, it would often choose Muslims or enemies of the Franks as allies. It was later crushed by the Carolingians.",
+            "description": "This region fought differently from the rest of Francia, even after it had been conquered. By 660, there was The Duchy of Aquintaine, a semi-independent Frankish during period of Merovingian weakness. Being on the border of the Christian world, it would often choose Muslims or enemies of the Franks as allies. It was later crushed by the Carolingians.",
             "restricted": "true"
         },
         "capetian_french": {
@@ -72,6 +72,7 @@
                         "hand_weapon"
                     ],
                     "options": [{"addWeapon": "javelin"}, {"addRule": "travel_horse"},
+                    {"replaceRule": "warrior_culture", "withRule": "light_spearmen"},
                     {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                     {"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
                     {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]}],
@@ -103,7 +104,8 @@
                     "wounds": 1,
                     "weapons": ["spear", "shield","hand_weapon"],
                     "options": [{"addWeapon": "javelin"}, {"addRule":  "mount_horse"}, {"addRule": "light_armor", "modelLimit": 5}, {"addRule": "stubborn"},
-                        {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
+                    {"replaceRule": "warrior_culture", "withRule": "light_spearmen"},
+                    {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "sword", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "sword", "withWeapon": ["hand_axe"]}],
                     "min": 5,
@@ -144,7 +146,7 @@
                 "category": "core",
                 "min": 1,
                 "max": 1,
-                "rules": ["warband", "shield", "if_it_bleeds", "spearmen"],
+                "rules": ["warband", "shield", "if_it_bleeds", "light_spearmen"],
                 "keywords": ["Infantry"],
                 "models": [
                     {
@@ -435,6 +437,7 @@
                     "wounds": 1,
                     "weapons": ["hand_weapon", "shield"],
                     "options": [{"addWeapon": "javelin"}, {"addRule": "travel_horse"},
+                    {"replaceRule": "warrior_culture", "withRule": "light_spearmen"},
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spear"]},
@@ -545,8 +548,8 @@
         },
         "mount_rich_romano_franci": {
             "name": "Mounted Gallo-Roman Nobles",
-            "description": "Among the Franks, most of the management class of Romans was retained. While the bulk of Gallo-Romans were tenant farmers below the Frankish freemen, those with the means and will to fight were considered Franks, and were recruited or intermarried with.",
-            "subfactions": ["early_merovingian_franks"],
+            "description": "Among the Franks, most of the management class of Romans was retained. While the bulk of Gallo-Romans were tenant farmers below the Frankish freemen, those with the means and will to fight were considered Franks, and were recruited or intermarried with. However, by the second half of the 7th century, this type of cavalry had assimilated too deeply.",
+            "subfactions": ["early_merovingian_franks", "aquitaine"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -599,7 +602,6 @@
                     "wounds": 1,
                     "weapons": ["shield","hand_weapon"],
                     "options": [{"addWeapon": "javelin"},
-                        {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "hand_weapon", "withWeapon": ["hand_axe"]},
                         {"replaceWeapon": "shield", "withWeapon": ["bow"]},
@@ -755,10 +757,48 @@
                         {"replaceWeapon": "spear", "withWeapon": ["spartha"]},
                         {"replaceWeapon": "spear", "withWeapon": ["hand_axe"]},
                         {"addRule": "light_armor"},
+                        {"addRule": "heavy_armor"},
                         {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]},
                         {"addRule": "scout"}
                     ],
-                    "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units.",
+                    "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units. 4/15/23, so the Golden WAB book says that these units are a version of what comes later, but with worse horses, so naturally heavy armor must be included. DBM seems to match this too.",
+                    "min": 5,
+                    "max": 15
+                }
+            ]
+        },
+        "aquitaine_mount_nobility": {
+            "name": "Mounted Warrior Nobility",
+            "description": "Records from this time indicate there was a lot of fighting, but the population of 'retainers' was too few, skilled warriors were spread out across wide areas, and the usefulness of freeman militia too terrible. This indicates a reasonable population of 'warrior nobility' must've existed, desendents of Latin and Germanic warriors. In southern Francia, there lords were typically richer from the abundance of trade and there was a wider availability of workshops making manufactured goods.", 
+            "subfactions": ["aquitaine"],
+            "category": "core",
+            "min": 1,
+            "max": 1,
+            "rules": ["warband", "if_it_bleeds", "mount_horse"],
+            "keywords": [
+                "Cavalry"
+            ],
+            "models": [
+                {
+                    "name": "Warrior",
+                    "courage": 6,
+                    "movement": 6,
+                    "shoot": 5,
+                    "fight": 6,
+                    "defense": 5,
+                    "reflexes": 6,
+                    "wounds": 1,
+                    "weapons": ["shield","spear"],
+                    "options": [
+                        {"addWeapon": "javelin"},
+                        {"replaceWeapon": "spear", "withWeapon": ["spartha"]},
+                        {"replaceWeapon": "spear", "withWeapon": ["hand_axe"]},
+                        {"addRule": "light_armor"},
+                        {"addRule": "heavy_armor"},
+                        {"replaceRule": "light_cavalry", "withRule": ["mount_warrior_culture"]},
+                        {"addRule": "scout"}
+                    ],
+                    "notes": "Hans Delbruck (Super hardcore Geramn historian) says the math does not add up. The early Merovingians are covered in multiple WAB books with slightly different units. 4/15/23, so the Golden WAB book says that these units are a version of what comes later, but with worse horses, so naturally heavy armor must be included. DBM seems to match this too.",
                     "min": 5,
                     "max": 15
                 }
@@ -821,7 +861,7 @@
         "early_liberi": {
             "name": "Liberi",
             "description": "Previously known as 'Franci', the Liberi (Latin) were the landowning class. By the time of Charlemagne, the 'Franci'/'Liberi' answering the Heerbann increasingly found themselves fighting without horses, and religated to paying for the equipment of the 'milities', which was quite expensive. This was a considerable burden to the poor landowners, basically low class 'freemen', who hoped to be under the service of a lord rich enough to, help them afford their obligations or ask less of them.",
-            "subfactions": ["later_merovingian_franks", "aquitaine"],
+            "subfactions": ["later_merovingian_franks"],
             "category": "core",
             "min": 1,
             "max": 1,
@@ -842,6 +882,35 @@
                     "weapons": ["spear", "shield"],
                     "options": [{"addWeapon": "javelin"},
                         {"addWeapon": [{"id": "heavy_throwing_spear", "name": "Francisca"}]}],
+                    "min": 5,
+                    "max": 15
+                }
+            ]
+        },
+        "aquitaine_early_liberi": {
+            "name": "Liberi",
+            "description": "Previously known as 'Franci', the Liberi (Latin) were the landowning class. By the time of Charlemagne, the 'Franci'/'Liberi' answering the Heerbann increasingly found themselves fighting without horses, and religated to paying for the equipment of the 'milities', which was quite expensive. This was a considerable burden to the poor landowners, basically low class 'freemen', who hoped to be under the service of a lord rich enough to, help them afford their obligations or ask less of them.",
+            "subfactions": ["aquitaine"],
+            "category": "core",
+            "min": 1,
+            "max": 1,
+            "rules": ["warband", "if_it_bleeds", "spearmen"],
+            "keywords": [
+                "Infantry"
+            ],
+            "models": [
+                {
+                    "name": "Freeman",
+                    "courage": 5,
+                    "movement": 6,
+                    "shoot": 5,
+                    "fight": 5,
+                    "defense": 5,
+                    "reflexes": 5,
+                    "wounds": 1,
+                    "weapons": ["spear", "shield"],
+                    "options": [{"addWeapon": "javelin"}],
+                    "notes": "This ruling is partially because DBA suggests so, and partially for balance, so that the Aqu sub-faction isn't too strong and the Mero factions don't become too weak.",
                     "min": 5,
                     "max": 15
                 }

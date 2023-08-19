@@ -663,8 +663,24 @@
         "description": "One unit on foot gains the rule of 'furious_charge' till the end of the turn.",
         "flavor": "",
         "cost": 1
-    }
-    ,{
+    },
+    {
+        "subfactions": ["sea_raiders","early_saxon_kingdoms"],
+        "name": "Onlooking Fear",
+        "phase": "activation",
+        "description": "When an enemy unit loses a melee, breaks from melee, or is completely destroyed in melee: choose another different enemy unit within 6' of the dead/fleeing enemy unit to target. That targetted enemy unit gains 2 Shock.",
+        "flavor": "",
+        "cost": 1
+    },
+    {
+        "subfactions": ["early_saxon_kingdoms"],
+        "name": "Boar Snout",
+        "phase": "activation",
+        "description": "A selected unit gains +1 AP for all their melee weapons, during a charge.",
+        "flavor": "",
+        "cost": 1
+    },
+    {
         "subfactions": ["heptarchy", "sea_raiders"],
         "name": "Veterans",
         "phase": "activation",
